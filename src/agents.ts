@@ -239,7 +239,6 @@ export function getAgentsStats(): AgentStats {
     agent.knowledge_profile.era.split(',').forEach(era => eras.add(era.trim()));
     agent.knowledge_profile.regions.forEach(region => regions.add(region));
   });
-  
   return {
     total: agents.length,
     domains: Array.from(domains).sort(),
