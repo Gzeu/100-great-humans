@@ -1,6 +1,12 @@
 # 100 Great Humans
 
-This repository collects detailed YAML profiles and summaries of the 100 people ranked in Michael H. Hart's book *The 100: A Ranking of the Most Influential Persons in History* (1992).
+[![Version 3.0](https://img.shields.io/badge/version-3.0.0-blue?style=for-the-badge)](#version-history)
+
+> Advanced multi-modal agent persona library for the 100 most influential humans in Michael H. Hart's ranking.
+
+![100 Great Humans Demo](docs/demo.gif)
+
+> Replace `docs/demo.gif` with a demo GIF (e.g., screen recording from Web UI or terminal).
 
 ## **Project Status:** COMPLETE - ADVANCED VERSION 3.0
 
@@ -71,6 +77,95 @@ All 100 personalities have been processed with full YAML profiles, AI agent arch
 ├── 100-great-humans.md   # Full list and descriptions
 └── README.md             # This file
 ```
+
+## 🚀 Quick Start
+
+### Python library (`great_humans`)
+
+```bash
+# instalare (dev din surse)
+git clone https://github.com/Gzeu/100-great-humans.git
+cd 100-great-humans
+pip install -e .
+
+# sau din PyPI (dacă publici pachetul)
+pip install great-humans
+```
+
+```python
+from great_humans import by_id, build_system_prompt
+
+# 1) Acces enciclopedic
+newton = by_id(2)  # Isaac Newton
+print(newton["name"], newton["domains"])
+
+# 2) Prompt de sistem pentru LLM
+system_prompt = build_system_prompt(2)
+print(system_prompt[:500])
+```
+
+---
+
+### TypeScript SDK (`src/agents.ts`)
+
+```bash
+git clone https://github.com/Gzeu/100-great-humans.git
+cd 100-great-humans/src
+npm install
+npm run build
+npm test
+```
+
+```ts
+import {
+  getAgentById,
+  listAgentsByDomain,
+  getSystemPromptById,
+} from "./agents";
+
+const einstein = getAgentById("hart-010-albert-einstein");
+const scientists = listAgentsByDomain("science");
+
+const systemPrompt = getSystemPromptById("hart-010-albert-einstein");
+// trimis ca system prompt către modelul tău LLM
+```
+
+---
+
+### HTTP API (FastAPI)
+
+```bash
+cd api
+pip install -r requirements.txt
+uvicorn main:app --reload
+# http://localhost:8000/docs
+```
+
+Exemplu de request:
+
+```bash
+curl -X POST http://localhost:8000/selection/best \
+  -H "Content-Type: application/json" \
+  -d '{
+    "task": "Design renewable energy solution",
+    "context": {"domain": "technology"}
+  }'
+```
+
+## 🏅 Top 10 Great Humans (Hart Ranking)
+
+| Rank | Name                | Domains                    | Profile                                   | Agent ID                      |
+|------|---------------------|----------------------------|-------------------------------------------|--------------------------------|
+| 1    | Muhammad            | religion, politics         | [Profile](docs/people/001-muhammad.md)              | `hart-001-muhammad`           |
+| 2    | Isaac Newton        | science, mathematics       | [Profile](docs/people/002-isaac-newton.md)          | `hart-002-isaac-newton`       |
+| 3    | Jesus of Nazareth   | religion, ethics           | [Profile](docs/people/003-jesus-of-nazareth.md)     | `hart-003-jesus-of-nazareth`  |
+| 4    | Gautama Buddha      | religion, philosophy       | [Profile](docs/people/004-gautama-buddha.md)        | `hart-004-gautama-buddha`     |
+| 5    | Confucius           | philosophy, ethics         | [Profile](docs/people/005-confucius.md)             | `hart-005-confucius`          |
+| 6    | Paul of Apostle    | religion, ethics           | [Profile](docs/people/006-paul-the-apostle.md)      | `hart-006-paul-the-apostle`   |
+| 7    | Cai Lun             | technology, administration | [Profile](docs/people/007-cai-lun.md)               | `hart-007-cai-lun`            |
+| 8    | Johannes Gutenberg  | technology, communication  | [Profile](docs/people/008-johannes-gutenberg.md)    | `hart-008-johannes-gutenberg` |
+| 9    | Christopher Columbus| exploration, navigation    | [Profile](docs/people/009-christopher-columbus.md)  | `hart-009-christopher-columbus` |
+| 10   | Albert Einstein     | science, physics           | [Profile](docs/people/010-albert-einstein.md)       | `hart-010-albert-einstein`    |
 
 ## **Advanced Features**
 
@@ -479,6 +574,122 @@ interface HartAgent {
 npm test
 # 🧪 Testing Great Humans TypeScript SDK
 # ✅ All 9 tests passed!
+```
+
+## ✅ Tests & CI/CD
+
+### Local tests
+
+Python:
+
+```bash
+pytest --cov=great_humans --cov-report=term-missing
+```
+
+TypeScript:
+
+```bash
+cd src
+npm test -- --coverage
+```
+
+### GitHub Actions (CI + coverage)
+
+Creează fișierul `.github/workflows/ci.yml` cu:
+
+```yaml
+name: CI
+
+on:
+  push:
+    branches: [ main ]
+  pull_request:
+    branches: [ main ]
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+
+    strategy:
+      matrix:
+        python-version: ["3.10"]
+        node-version: [20]
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: ${{ matrix.python-version }}
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: ${{ matrix.node-version }}
+
+      - name: Install Python deps
+        run: |
+          pip install -e .
+          pip install -r api/requirements.txt
+          pip install pytest pytest-cov
+
+      - name: Install Node deps
+        working-directory: src
+        run: npm install
+
+      - name: Run Python tests + coverage
+        run: pytest --cov=great_humans --cov-report=xml
+
+      - name: Run TypeScript tests + coverage
+        working-directory: src
+        run: npm test -- --coverage
+
+      - name: Upload coverage artifacts
+        uses: actions/upload-artifact@v4
+        with:
+          name: coverage-reports
+          path: |
+            coverage.xml
+            src/coverage
+```
+
+> CI rulează automat testele Python + TypeScript și atașează rapoarte de coverage la fiecare push / PR prin GitHub Actions.
+
+## 🌐 Web UI: 100 Great Humans Explorer (Next.js + shadcn)
+
+Planned / In progress: a full web UI to explore the dataset and spawn agents.
+
+**Tech stack:**
+
+- **Next.js 14 (App Router)** – SSR/ISR for fast data exploration  
+- **shadcn/ui** – list, table, dialog, command palette  
+- **TypeScript SDK** – uses `src/agents.ts` on the server for all data access  
+- **Vercel deployment** – 1-click deploy for the explorer app  
+
+**Core screens:**
+
+- **Explorer**: searchable/filterable list (domain, era, region, impact tag)  
+- **Detail drawer**: biography + achievements + impact + agent archetype  
+- **Agent prompt preview**: view & copy the exact `prompt_template` used by the SDK  
+- **LLM playground (optional)**: pick an agent, type a question, see the conversation.
+
+**Example component:**
+
+```ts
+// app/explorer/page.tsx
+import { listAgentsByDomain, listAgents } from "../src/agents";
+
+export default async function ExplorerPage() {
+  const agents = listAgents(); // rulează pe server
+
+  return (
+    <main className="container py-8">
+      {/* shadcn DataTable / Cards */}
+    </main>
+  );
+}
 ```
 
 ## **Usage Examples**
