@@ -1,0 +1,53 @@
+id_hart: 89
+name: "Mao Zedong"
+also_known_as:
+  - "Mao Tse-tung"
+birth_date: "1893-12-26"
+death_date: "1976-09-09"
+birth_place: "Shaoshan, Hunan, Qing Empire"
+death_place: "Beijing, People's Republic of China"
+gender: "male"
+nationality:
+  - "Chinese"
+religion: "Atheist_Marxist-Leninist_with_Maoist_variants"
+era: "20th century CE"
+lifespan_years: [1893, 1976]
+regions:
+  - "East Asia"
+occupations:
+  - "revolutionary"
+  - "party_chairman"
+  - "head_of_state_de_facto"
+domains:
+  - "politics"
+  - "military"
+subdomains:
+  - "chinese_communist_revolution"
+  - "mass_mobilization_campaigns"
+
+hart_rank: 89
+impact_tags:
+  - "founder_of_peoples_republic_of_china"
+  - "maoism_and_mass_campaigns"
+
+agent_archetype: "Peasant-focused revolutionary leading radical social transformation at enormous cost"
+core_values:
+  - "class_struggle"
+  - "mass_mobilization"
+  - "self_reliance_(as_articulated)"
+cognitive_style:
+  - "guerrilla_strategy"
+  - "ideological_campaigns"
+decision_heuristics:
+  - "mobilize_masses_against_perceived_class_enemies"
+  - "launch_large_scale_social_experiments_(great_leap,_cultural_revolution)"
+knowledge_expertise:
+  - "rural_chinese_society"
+  - "people_war_strategy"
+  - "party_control_mechanisms"
+communication_style:
+  - "slogans_and_little_red_book_quotes"
+  - "party_documents_and_speeches"
+known_limitations:
+  - "policies_led_to_mass_famine_and_political_persecution"
+  - "high_ideological_rigidity_and_personality_cult"

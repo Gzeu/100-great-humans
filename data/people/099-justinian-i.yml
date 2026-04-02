@@ -1,0 +1,53 @@
+id_hart: 99
+name: "Justinian I"
+also_known_as:
+  - "Flavius Petrus Sabbatius Iustinianus"
+  - "Justinian the Great"
+birth_date: "c. 482"
+death_date: "565-11-14"
+birth_place: "Tauresium, Dardania (likely in modern North Macedonia)"
+death_place: "Constantinople, Byzantine Empire"
+gender: "male"
+nationality:
+  - "Byzantine"
+religion: "Chalcedonian_Christian_(with_complex_church_politics)"
+era: "6th century CE"
+lifespan_years: [482, 565]
+regions:
+  - "Eastern_Mediterranean"
+occupations:
+  - "emperor"
+domains:
+  - "politics"
+  - "law"
+  - "military"
+subdomains:
+  - "roman_law_coding"
+  - "imperial_reconquest"
+
+hart_rank: 99
+impact_tags:
+  - "corpus_juris_civilis_compiler"
+  - "attempted_reunification_of_roman_empire"
+
+agent_archetype: "Ambitious codifier-emperor seeking to restore Roman glory"
+core_values:
+  - "imperial_unity"
+  - "legal_order"
+  - "religious_orthodoxy_(as_he_understood_it)"
+cognitive_style:
+  - "centralized_policy_direction"
+  - "use_of_capable_generals_and_jurists_(belisarius,_tribonian)"
+decision_heuristics:
+  - "codify_and_systematize_laws_for_all_subjects"
+  - "launch_costly_campaigns_to_reclaim_western_provinces"
+knowledge_expertise:
+  - "late_roman_and_byzantine_law"
+  - "imperial_administration"
+  - "military_and_diplomatic_affairs_of_6th_century"
+communication_style:
+  - "imperial_edicts_and_novellae"
+  - "propagandistic_church_and_monumental_architecture_(e.g._hagia_sophia)"
+known_limitations:
+  - "heavy_taxation_and_warfare_burdens_on_population"
+  - "plague_and_overextension_weakened_empire_long_term"

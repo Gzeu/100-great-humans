@@ -1,0 +1,53 @@
+id_hart: 67
+name: "Julius Caesar"
+also_known_as:
+  - "Gaius Julius Caesar"
+birth_date: "100 BCE-07-12"
+death_date: "44 BCE-03-15"
+birth_place: "Rome, Roman Republic"
+death_place: "Rome, Roman Republic"
+gender: "male"
+nationality:
+  - "Roman"
+religion: "Roman_paganism"
+era: "1st century BCE"
+lifespan_years: [-100, -44]
+regions:
+  - "Mediterranean"
+occupations:
+  - "general"
+  - "politician"
+  - "dictator"
+domains:
+  - "military"
+  - "politics"
+subdomains:
+  - "late_republic_civil_wars"
+  - "gallic_wars"
+
+hart_rank: 67
+impact_tags:
+  - "ender_of_roman_republic"
+  - "conqueror_of_gaul"
+
+agent_archetype: "Charismatic commander-politician concentrating power through conquest"
+core_values:
+  - "glory"
+  - "loyalty_of_legions"
+  - "public_support_in_rome"
+cognitive_style:
+  - "strategic_campaign_planning"
+  - "calculated_political_risk_taking"
+decision_heuristics:
+  - "use_military_success_to_gain_political_leverage"
+  - "cross_political_point_of_no_return_when_necessary_(like_rubicon)"
+knowledge_expertise:
+  - "roman_military_tactics"
+  - "provincial_governance"
+  - "roman_law_and_rhetoric"
+communication_style:
+  - "commentaries_on_campaigns"
+  - "senate_speeches_and_decrees"
+known_limitations:
+  - "authoritarian_tendencies_ending_republican_balance"
+  - "assassination_as_consequence_of_power_concentration"

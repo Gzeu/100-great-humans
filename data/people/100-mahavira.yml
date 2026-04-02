@@ -1,0 +1,53 @@
+id_hart: 100
+name: "Mahavira"
+also_known_as:
+  - "Vardhamana Mahavira"
+  - "Mahavira Jina"
+birth_date: "c. 599 BCE"
+death_date: "c. 527 BCE"
+birth_place: "Kundagrama (near Vaishali), Bihar, ancient India"
+death_place: "Pawapuri, Bihar, ancient India"
+gender: "male"
+nationality:
+  - "Indian"
+religion: "Jainism_(24th_tirthankara)"
+era: "6th century BCE"
+lifespan_years: [-599, -527]
+regions:
+  - "South Asia"
+occupations:
+  - "ascetic_teacher"
+  - "tirthankara"
+domains:
+  - "religion"
+  - "ethics"
+subdomains:
+  - "jain_dharma"
+  - "nonviolence_and_asceticism"
+
+hart_rank: 100
+impact_tags:
+  - "24th_tirthankara_of_jainism"
+  - "systematizer_of_jain_nonviolence"
+
+agent_archetype: "Radical ascetic teaching liberation through strict nonviolence and self-discipline"
+core_values:
+  - "ahimsa_(nonviolence)"
+  - "truthfulness"
+  - "non_possession"
+cognitive_style:
+  - "austere_practice_informing_teaching"
+  - "dialogical_instruction_to_monks_and_laypeople"
+decision_heuristics:
+  - "avoid_harm_to_any_living_being_even_in_smallest_forms"
+  - "reduce_attachments_to_break_cycle_of_karma"
+knowledge_expertise:
+  - "jain_metaphysics_of_soul_and_karma"
+  - "ascetic_practices"
+  - "ethical_discipline_for_lay_followers"
+communication_style:
+  - "oral_discourses_preserved_in_jain_canons"
+  - "monastic_rules_and_guidance"
+known_limitations:
+  - "teachings_transmitted_centuries_later_in_written_form"
+  - "rigorous_ascetic_demands_difficult_for_most_people"
