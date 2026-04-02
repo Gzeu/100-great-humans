@@ -2,14 +2,19 @@
 
 This repository collects detailed YAML profiles and summaries of the 100 people ranked in Michael H. Hart's book *The 100: A Ranking of the Most Influential Persons in History* (1992).
 
-## **Project Status:** ✅ COMPLETE
+## **Project Status:** COMPLETE - ADVANCED VERSION 3.0
 
-All 100 personalities have been processed with full YAML profiles and AI agent archetypes:
+All 100 personalities have been processed with full YAML profiles, AI agent archetypes, and advanced skill capabilities:
 
 - **100 YAML files**: `data/people/001-muhammad.yml` → `data/people/100-mahavira.yml`
 - **JSON manifest**: `output/agents-hart-100.json` (203KB, 100 agents)
 - **English profiles**: `docs/people/001-muhammad.md` → `docs/people/100-mahavira.md`
-- **Python library**: `great_humans/` package for instant agent personas
+- **Advanced Python library**: `great_humans/` package with intelligent agent capabilities
+- **8 Skills**: Analysis, Creativity, Leadership, Teaching, Writing, Negotiation, Research, Engineering
+- **Skill Chaining**: Sequential skill execution with context passing
+- **Proficiency Levels**: 5-level system (Beginner to Master)
+- **Smart Selection**: AI-powered agent-skill optimization
+- **Learning System**: Adaptive skill improvement through practice
 - **Comprehensive coverage**: Muhammad (rank 1) through Mahavira (rank 100)
 
 ## **Repository Structure**
@@ -28,10 +33,20 @@ All 100 personalities have been processed with full YAML profiles and AI agent a
 │       ├── 002-isaac-newton.md
 │       └── ...
 │       └── 100-mahavira.md
-├── great_humans/         # Python library for agent personas
+├── great_humans/         # Advanced Python library (v3.0.0)
 │   ├── __init__.py
 │   ├── loader.py
-│   └── prompt.py
+│   ├── prompt.py
+│   ├── skills.py
+│   ├── extended_skills.py
+│   ├── agent_enhanced.py
+│   ├── skill_chaining.py
+│   ├── proficiency.py
+│   ├── skill_selector.py
+│   └── skill_learning.py
+├── examples/
+│   ├── skills_demo.py      # Basic skills demonstration
+│   └── advanced_demo.py   # Complete advanced features demo
 ├── output/
 │   └── agents-hart-100.json  # Generated agent manifest
 ├── scripts/
@@ -43,6 +58,77 @@ All 100 personalities have been processed with full YAML profiles and AI agent a
 └── README.md             # This file
 ```
 
+## **Advanced Features**
+
+### **8 Intelligent Skills**
+- **Analysis**: Break down complex problems, structured insights
+- **Creativity**: Generate innovative solutions, think outside boundaries
+- **Leadership**: Strategic guidance, team motivation, executive decisions
+- **Teaching**: Explain concepts, educate, share knowledge
+- **Writing**: Compose compelling narratives, persuasive arguments
+- **Negotiation**: Navigate conflicts, find common ground, win-win solutions
+- **Research**: Systematic investigation, evidence-based conclusions
+- **Engineering**: Design practical solutions, optimize systems
+
+### **Skill Chaining**
+Execute multiple skills in sequence with context passing:
+
+```python
+from great_humans import PredefinedChains
+
+# Research → Analysis → Creativity → Engineering
+chain = PredefinedChains.innovation_development(
+    agent_id=2,  # Newton
+    problem="Space travel challenges",
+    constraints=["physics", "resources"]
+)
+result = chain.execute_chain()
+```
+
+### **Proficiency System**
+5-level proficiency system with automatic advancement:
+
+```python
+from great_humans import AgentProficiency
+
+proficiency = AgentProficiency(2)  # Newton
+print(f"Analysis: {proficiency.get_proficiency('analysis').name}")
+# Output: MASTER
+```
+
+### **Smart Selection**
+AI-powered agent-skill optimization:
+
+```python
+from great_humans import SkillSelector
+
+selector = SkillSelector()
+best_agent, best_skill, score = selector.select_best_agent_skill_pair(
+    "Design renewable energy solution"
+)
+print(f"Best: {by_id(best_agent)['name']} with {best_skill} (score: {score:.3f})")
+```
+
+### **Learning & Adaptation**
+Agents improve skills through practice and get adaptive recommendations:
+
+```python
+from great_humans import SkillLearningSystem, AdaptiveSkillSystem
+
+# Execute skill with learning
+learning = SkillLearningSystem()
+result = learning.execute_skill_with_learning(
+    agent_id=2, skill="creativity", 
+    context={"challenge": "New physics theory"}
+)
+
+# Get adaptive recommendations
+adaptive = AdaptiveSkillSystem()
+recommendation = adaptive.get_adaptive_recommendation(
+    agent_id=2, task="Educational reform"
+)
+```
+
 ## **Usage with LLMs**
 
 ### **Installation**
@@ -50,64 +136,68 @@ All 100 personalities have been processed with full YAML profiles and AI agent a
 pip install great-humans
 ```
 
-### **Basic Usage**
+### **Advanced Usage - Smart Agent Selection**
 ```python
-from great_humans import load_all, by_id, filter_agents, build_system_prompt
+from great_humans import SkillSelector, TaskClassifier
 
-# Load all agents
-agents = load_all()
-print(f"Total agents: {len(agents)}")
+# Classify task and get optimal agent-skill combination
+classifier = TaskClassifier()
+task_type = classifier.classify_task("Design renewable energy storage")
+required_skills = classifier.get_required_skills(task_type)
 
-# Get specific agent
-newton = by_id(2)
-print(f"Agent: {newton['name']}")
+selector = SkillSelector()
+best_agent_id, best_skill, score = selector.select_best_agent_skill_pair(
+    "Design renewable energy storage"
+)
 
-# Filter by domain
-science_agents = filter_agents(domain="science")
-print(f"Science agents: {len(science_agents)}")
-
-# Build system prompt for LLM
-prompt = build_system_prompt(2)  # Newton
-print(prompt)
+# Execute with learning
+from great_humans import SkillLearningSystem
+learning = SkillLearningSystem()
+result = learning.execute_skill_with_learning(
+    agent_id=best_agent_id,
+    skill=best_skill,
+    context={"task": "Design renewable energy storage"}
+)
 ```
 
-### **System Prompt Template**
+### **Advanced Usage - Skill Chaining**
 ```python
-def build_system_prompt(agent):
-    return f"""You are an AI agent role-playing as {agent['name']} (Hart rank {agent['rank']}) from the project "100 Great Humans".
+from great_humans import EnhancedAgent, PredefinedChains
 
-Core Identity
-- Archetype: {agent['persona']['archetype']}
-- Era: {agent['knowledge_profile']['era']}
-- Regions: {', '.join(agent['knowledge_profile']['regions'])}
+# Create enhanced agent with skills
+newton = EnhancedAgent(2)
 
-Core Values
-{chr(10).join(f"- {value}" for value in agent['persona']['core_values'])}
+# Use predefined skill chain
+chain = PredefinedChains.research_and_analysis(
+    agent_id=2,
+    topic="quantum computing applications"
+)
+result = chain.execute_chain()
 
-Cognitive Style
-{chr(10).join(f"- {style}" for style in agent['persona']['cognitive_style'])}
-
-Instructions
-- Respond as {agent['name']}, using your historical perspective and personality
-- Be a helpful, safe modern AI assistant while staying in character
-- Explain your reasoning, not just conclusions
-- When your historical context limits you, explicitly state this
-- Do not glorify harmful actions; acknowledge moral complexities"""
+# Create custom skill chain
+from great_humans import SkillChain
+custom_chain = SkillChain(
+    agent_id=2,
+    skill_sequence=["research", "analysis", "creativity"],
+    context={"challenge": "Solve climate change"}
+)
 ```
 
-### **Great Humans Council Example**
+### **Advanced Usage - Council Collaboration**
 ```python
-from great_humans import filter_agents, build_system_prompt
+from great_humans import AgentCouncil
 
-# Select diverse council members
-council_ids = [1, 2, 3]  # Muhammad, Newton, Jesus
-council_prompts = [build_system_prompt(i) for i in council_ids]
+# Create diverse council
+council = AgentCouncil([2, 10, 1])  # Newton, Einstein, Muhammad
 
-# Use in your orchestrator
-for i, prompt in enumerate(council_prompts):
-    print(f"=== Agent {council_ids[i]} ===")
-    print(prompt)
-    print()
+# Collaborative analysis
+analysis = council.collaborative_analysis("Ethical implications of AI")
+
+# Brainstorming solutions
+solutions = council.brainstorm_solutions("Climate change innovations")
+
+# Strategic planning
+planning = council.strategic_planning("International scientific cooperation")
 ```
 
 ### **Character Registry Integration**
@@ -115,36 +205,40 @@ for i, prompt in enumerate(council_prompts):
 # Character Registry for your orchestrator
 class CharacterRegistry:
     def __init__(self):
-        from great_humans import load_all, filter_agents, build_system_prompt
+        from great_humans import load_all, filter_agents, build_system_prompt, SkillSelector
         self.agents = load_all()
         self.filter_agents = filter_agents
         self.build_prompt = build_system_prompt
+        self.selector = SkillSelector()
     
-    def select_for_task(self, task_type="strategy"):
-        """Select appropriate agents for specific tasks."""
-        if task_type == "science":
-            candidates = self.filter_agents(domain="science")
-        elif task_type == "politics":
-            candidates = self.filter_agents(domain="politics")
-        elif task_type == "philosophy":
-            candidates = self.filter_agents(domain="philosophy")
-        else:
-            candidates = self.agents[:10]  # Top 10 by default
+    def select_for_task(self, task_description: str, council_size: int = 3):
+        """Select optimal agents for specific task.""" 
+        # Classify task and get requirements
+        classifier = TaskClassifier()
+        task_type = classifier.classify_task(task_description)
         
-        return candidates[:3]  # Return top 3 candidates
+        # Select diverse council
+        council = self.selector.select_diverse_council(task_description, council_size)
+        
+        return [(agent_id, skill, score) for agent_id, skill, score in council]
     
-    def create_council(self, agent_ids, topic):
-        """Create a council discussion prompt."""
-        prompts = [self.build_prompt(id) for id in agent_ids]
+    def create_council(self, task_description: str):
+        """Create optimized council for task.""" 
+        council_pairs = self.select_for_task(task_description, 3)
+        
+        # Create enhanced agents
+        agents = [EnhancedAgent(agent_id) for agent_id, _, _ in council_pairs]
+        
+        # Return council configuration
         return {
-            "members": agent_ids,
-            "topic": topic,
-            "system_prompts": prompts
+            "task": task_description,
+            "members": council_pairs,
+            "agents": agents
         }
 
 # Usage
 registry = CharacterRegistry()
-science_council = registry.create_council([2, 23, 76], "What is the future of quantum computing?")
+council_config = registry.create_council("Design sustainable city")
 ```
 
 ## **YAML Schema**
@@ -182,7 +276,7 @@ profile_md: "docs/people/[filename].md"
 
 ## **Agent Manifest**
 
-The `output/agents-hart-100.json` file contains structured AI agent definitions generated from the YAML profiles, suitable for LLM-based persona systems.
+The `output/agents-hart-100.json` file contains structured AI agent definitions generated from the YAML profiles, suitable for LLM-based persona systems with skill capabilities.
 
 ## **Content Sources**
 
@@ -201,10 +295,159 @@ The `output/agents-hart-100.json` file contains structured AI agent definitions 
 - **Exploration**: Columbus, Vasco da Gama, etc.
 - **Philosophy**: Aristotle, Plato, Descartes, etc.
 
-## **Documentation**
+## **Performance Metrics**
 
-See `100-great-humans.md` for the complete list with detailed historical descriptions of all 100 personalities.
+### **Skill Distribution**
+- **Analysis**: Available to agents with science, philosophy, politics, mathematics domains
+- **Creativity**: Available to agents with arts, technology, science, philosophy domains
+- **Leadership**: Available to agents with politics, military, business, religion domains
+- **Teaching**: Available to agents with science, philosophy, religion, arts domains
+- **Writing**: Available to agents with arts, politics, philosophy, religion domains
+- **Negotiation**: Available to agents with politics, business, law domains
+- **Research**: Available to agents with science, philosophy, medicine, history domains
+- **Engineering**: Available to agents with technology, science, mathematics domains
+
+### **Proficiency Distribution**
+- **Master (5/5)**: Top-ranked agents in relevant domains
+- **Expert (4/5)**: Agents with strong domain expertise
+- **Advanced (3/5)**: Agents with solid domain knowledge
+- **Intermediate (2/5)**: Agents with basic domain familiarity
+- **Beginner (1/5)**: Agents with limited domain experience
+
+## **Examples**
+
+### **Quick Start**
+```python
+from great_humans import SkillSelector, EnhancedAgent, PredefinedChains
+
+# Smart selection for task
+selector = SkillSelector()
+best_agent, best_skill, score = selector.select_best_agent_skill_pair(
+    "Analyze ethical implications of AI"
+)
+
+# Execute with learning
+from great_humans import SkillLearningSystem
+learning = SkillLearningSystem()
+result = learning.execute_skill_with_learning(
+    agent_id=best_agent,
+    skill=best_skill,
+    context={"problem": "AI ethics"}
+)
+```
+
+### **Complex Workflow**
+```python
+from great_humans import AgentCouncil, PredefinedChains, AdaptiveSkillSystem
+
+# Create diverse council for complex problem
+council = AgentCouncil([2, 10, 1])  # Newton, Einstein, Muhammad
+
+# Multi-step problem solving
+# Step 1: Research phase
+research_chain = PredefinedChains.research_and_analysis(
+    agent_id=2, # Newton
+    topic="Quantum computing implications"
+)
+research_result = research_chain.execute_chain()
+
+# Step 2: Creative solutions
+creative_chain = PredefinedChains.creative_problem_solving(
+    agent_id=10, # Einstein
+    challenge="Quantum computing applications"
+)
+creative_result = creative_chain.execute_chain()
+
+# Step 3: Strategic implementation
+strategic_chain = PredefinedChains.strategic_communication(
+    agent_id=1, # Muhammad
+    situation="Global quantum governance",
+    audience="world_leaders"
+)
+strategic_result = strategic_chain.execute_chain()
+```
+
+### **Learning and Adaptation**
+```python
+from great_humans import SkillLearningSystem, AdaptiveSkillSystem
+
+# Track learning progress
+learning = SkillLearningSystem()
+
+# Multiple skill executions with learning
+for i in range(10):
+    result = learning.execute_skill_with_learning(
+        agent_id=2, # Newton
+        skill="analysis",
+        context={"problem": f"Physics problem {i+1}"}
+    )
+    print(f"Use {i+1}: {result['current_proficiency']}")
+
+# Get adaptive recommendations
+adaptive = AdaptiveSkillSystem()
+recommendation = adaptive.get_adaptive_recommendation(
+    agent_id=2,
+    task="Advanced physics education",
+    context={"domain": "science"}
+)
+```
+
+## **Installation & Setup**
+
+### **Development Setup**
+```bash
+git clone https://github.com/Gzeu/100-great-hreat-humans.git
+cd 100-great-humans
+pip install -e .
+```
+
+### **Production Installation**
+```bash
+pip install great-humans
+```
+
+### **Dependencies**
+- Python 3.8+
+- PyYAML (for YAML processing)
+- No external dependencies required for core functionality
 
 ## **License**
 
-MIT License - feel free to use this library in your projects!
+MIT License - feel free to use this library in your AI projects!
+
+## **Contributing**
+
+Contributions are welcome! Please:
+
+1. Fork the repository
+2. Create a feature branch
+3. Add your improvements
+4. Submit a pull request
+
+Areas for contribution:
+- Additional skills (medicine, law, economics, etc.)
+- Enhanced proficiency algorithms
+- New predefined skill chains
+- Performance optimizations
+- Documentation improvements
+
+## **Citation**
+
+If you use this library in your research or projects, please cite:
+
+``` 
+Great Humans: Advanced Agent Persona Library with Skills. (2025)
+GitHub Repository: https://github.com/Gzeu/100-great-humans
+Based on "The 100: A Ranking of the Most Influential Persons in History" by Michael H. Hart
+```
+
+## **Version History**
+
+- **v3.0.0**: Advanced skills, learning system, smart selection
+- **v2.0.0**: Basic skills and enhanced agents
+- **v1.0.0**: Core agent library
+- **v0.1.0**: Initial dataset only
+
+---
+ 
+**Ready for Advanced AI Integration!**
