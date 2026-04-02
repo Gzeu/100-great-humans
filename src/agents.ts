@@ -215,14 +215,16 @@ export function getSystemPromptByRank(rank: number): string | undefined {
  * Returnează statistici despre agenți
  * @returns Obiect cu statistici
  */
-export function getAgentsStats(): {
+interface AgentStats {
   total: number;
   domains: string[];
   eras: string[];
   regions: string[];
   impactTags: string[];
   ranks: number[];
-} {
+}
+
+export function getAgentsStats(): AgentStats {
   const agents = loadAgents();
   
   const domains = new Set<string>();
