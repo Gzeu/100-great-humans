@@ -10,6 +10,7 @@ All 100 personalities have been processed with full YAML profiles, AI agent arch
 - **JSON manifest**: `output/agents-hart-100.json` (203KB, 100 agents)
 - **English profiles**: `docs/people/001-muhammad.md` → `docs/people/100-mahavira.md`
 - **Advanced Python library**: `great_humans/` package with intelligent agent capabilities
+- **TypeScript SDK**: `src/` for Node.js/Next.js integration
 - **8 Skills**: Analysis, Creativity, Leadership, Teaching, Writing, Negotiation, Research, Engineering
 - **Skill Chaining**: Sequential skill execution with context passing
 - **Proficiency Levels**: 5-level system (Beginner to Master)
@@ -52,6 +53,19 @@ All 100 personalities have been processed with full YAML profiles, AI agent arch
 ├── scripts/
 │   ├── generate_agents_json.py  # YAML → JSON conversion
 │   └── generate_markdown_profiles.py  # YAML → Markdown conversion
+├── src/                  # TypeScript SDK for Node.js/Next.js
+│   ├── agents.ts         # Main SDK implementation
+│   ├── index.ts          # Export principal
+│   ├── example.ts        # Usage examples
+│   ├── test.ts           # Test suite
+│   ├── README.md         # SDK documentation
+│   ├── package.json      # npm configuration
+│   └── tsconfig.json     # TypeScript configuration
+├── api/                  # FastAPI server
+│   ├── main.py           # FastAPI application
+│   ├── requirements.txt  # Dependencies
+│   ├── docker-compose.yml # Docker deployment
+│   └── Dockerfile        # Docker image
 ├── setup.py              # Package installation
 ├── pyproject.toml        # Package configuration
 ├── 100-great-humans.md   # Full list and descriptions
@@ -392,6 +406,81 @@ recommendation = adaptive.get_adaptive_recommendation(
 )
 ```
 
+## **TypeScript SDK**
+
+The repository includes a complete TypeScript SDK for easy integration into Node.js and Next.js projects.
+
+### **Quick Start**
+```bash
+# Clone and setup
+git clone https://github.com/Gzeu/100-great-humans.git
+cd 100-great-humans/src
+npm install
+npm run build
+npm test
+```
+
+### **Basic Usage**
+```typescript
+import { getAgentById, listAgentsByDomain, getSystemPromptById } from './agents';
+
+// Get agent by ID
+const einstein = getAgentById("hart-010-albert-einstein");
+console.log(einstein.name); // "Albert Einstein"
+
+// List agents by domain
+const scientists = listAgentsByDomain("science");
+console.log(`Found ${scientists.length} scientists`);
+
+// Get system prompt for LLM
+const prompt = getSystemPromptById("hart-010-albert-einstein");
+```
+
+### **Next.js Integration**
+```typescript
+// pages/api/agents/[id]/route.ts
+import { getAgentById } from '@/src/agents';
+
+export async function GET(request, { params }) {
+  const agent = getAgentById(params.id);
+  return NextResponse.json({ data: agent });
+}
+```
+
+### **Available Functions**
+- `listAgents()` - Get all 100 agents
+- `getAgentById(id)` - Find agent by ID
+- `getAgentByRank(rank)` - Find agent by Hart rank (1-100)
+- `listAgentsByDomain(domain)` - Filter by domain (science, religion, etc.)
+- `searchAgentsByName(query)` - Fuzzy search by name
+- `getTopAgents(limit)` - Get top N agents
+- `getAgentsStats()` - Dataset statistics
+- `getSystemPromptById(id)` - System prompt for LLM
+- `buildSystemPrompt(agent)` - Build custom prompt
+- `exportAgentsAsJSON()` - Export as JSON
+- `exportAgentsAsCSV()` - Export as CSV
+
+### **TypeScript Types**
+```typescript
+interface HartAgent {
+  id: string;
+  name: string;
+  rank: number;
+  categories: HartAgentCategories;
+  persona: HartAgentPersona;
+  knowledge_profile: HartAgentKnowledgeProfile;
+  limitations: string[];
+  prompt_template: string;
+}
+```
+
+### **Testing**
+```bash
+npm test
+# 🧪 Testing Great Humans TypeScript SDK
+# ✅ All 9 tests passed!
+```
+
 ## **Usage Examples**
 
 ### **Quick Start**
@@ -564,6 +653,25 @@ pip install -e .
 pip install great-humans
 ```
 
+### **TypeScript SDK Setup**
+```bash
+# Clone repository
+git clone https://github.com/Gzeu/100-great-humans.git
+cd 100-great-humans
+
+# Install TypeScript dependencies
+cd src
+npm install
+
+# Build SDK
+npm run build
+
+# Test SDK
+npm test
+
+# Ready to use!
+```
+
 ### **API Server**
 ```bash
 cd api
@@ -583,6 +691,7 @@ docker-compose up -d
 - Python 3.8+
 - PyYAML (for YAML processing)
 - FastAPI (for API server)
+- TypeScript 5.0+ (for SDK)
 - No external dependencies required for core functionality
 
 ## **License**

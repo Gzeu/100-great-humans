@@ -1,0 +1,40 @@
+{
+  "name": "great-humans-sdk",
+  "version": "1.0.0",
+  "description": "TypeScript SDK for Great Humans historical agents dataset",
+  "main": "src/index.js",
+  "types": "src/index.ts",
+  "scripts": {
+    "build": "tsc",
+    "dev": "tsc --watch",
+    "clean": "rm -rf dist",
+    "test": "node test-sdk.js",
+    "example": "node -r ./dist/example.js"
+  },
+  "keywords": [
+    "history",
+    "agents",
+    "ai",
+    "llm",
+    "typescript",
+    "sdk",
+    "historical",
+    "great-humans",
+    "hart"
+  ],
+  "author": "Great Humans Project",
+  "license": "MIT",
+  "repository": "https://github.com/Gzeu/100-great-humans",
+  "files": [
+    "src/*",
+    "dist/*",
+    "output/agents-hart-100.json"
+  ],
+  "dependencies": {
+    "typescript": "^5.0.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20.0.0",
+    "typescript": "^5.0.0"
+  }
+}
