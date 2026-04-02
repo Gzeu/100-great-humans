@@ -1,55 +1,63 @@
 # Julius Caesar
 **Hart Rank:** 67
 
-## 📋 Informații de Bază
-- **Nume complet:** Julius Caesar
-- **Alte nume:** Gaius Julius Caesar
-- **Data nașterii:** 100 BCE-07-12
-- **Data decesului:** 44 BCE-03-15
-- **Locul nașterii:** Rome, Roman Republic
-- **Locul decesului:** Rome, Roman Republic
-- **Naționalitate:** Roman
-- **Religie:** Roman_paganism
-- **Epocă:** 1st century BCE
+## 📋 Basic Information
+- **Full Name:** Julius Caesar
+- **Also Known As:** Gaius Julius Caesar
+- **Birth Date:** 100 BCE-07-12
+- **Death Date:** 44 BCE-03-15
+- **Birth Place:** Rome, Roman Republic
+- **Death Place:** Rome, Roman Republic
+- **Nationality:** Roman
+- **Religion:** Roman_paganism
+- **Era:** 1st century BCE
 
-## 📖 Biografie
-Descriere nu disponibilă pentru rangul 67.
+## 📖 Biography
+Biographical information for Julius Caesar (Hart rank 67) is being compiled from historical sources.
 
-## 🏆 Realizări Principale
-- **Domenii:** military, politics
-- **Subdomenii:** late_republic_civil_wars, gallic_wars
-- **Ocupații:** general, politician, dictator
+- **Domains:** military, politics
+- **Occupations:** general, politician, dictator
+- **Hart Rank:** 67
 
-## 🌍 Impact și Moștenire
-### Etichete de Impact:
+Impact and legacy of Julius Caesar continues to influence modern society.
+
+## 🏆 Achievements
+- **Domains:** military, politics
+- **Occupations:** general, politician, dictator
+- **Hart Rank:** 67
+
+## 🌍 Impact and Legacy
+**Impact and legacy of Julius Caesar continues to influence modern society.**
+
+### 🏷️ Etichete de Impact:
 - ender_of_roman_republic
 - conqueror_of_gaul
 
-## 🤖 Arhetip Agent
+## 🤖 Agent Archetype
 **Charismatic commander-politician concentrating power through conquest**
 
-### Valori Fundamentale:
+### 💎 Core Values:
 - glory
 - loyalty_of_legions
 - public_support_in_rome
 
-### Stil Cognitiv:
+### 🧠 Cognitive Style:
 - strategic_campaign_planning
 - calculated_political_risk_taking
 
-### Heuristici Decizionale:
+### ⚖️ Decision Heuristics:
 - use_military_success_to_gain_political_leverage
 - cross_political_point_of_no_return_when_necessary_(like_rubicon)
 
-### Expertiză Cunoștințe:
+### 📚 Knowledge Expertise:
 - roman_military_tactics
 - provincial_governance
 - roman_law_and_rhetoric
 
-### Stil Comunicare:
+### 🗣️ Communication Style:
 - commentaries_on_campaigns
 - senate_speeches_and_decrees
 
-### Limitări Cunoscute:
+### ⚠️ Known Limitations:
 - authoritarian_tendencies_ending_republican_balance
 - assassination_as_consequence_of_power_concentration

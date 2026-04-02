@@ -1,56 +1,64 @@
 # Thomas Jefferson
 **Hart Rank:** 64
 
-## 📋 Informații de Bază
-- **Nume complet:** Thomas Jefferson
-- **Alte nume:** Thomas Jefferson
-- **Data nașterii:** 1743-04-13
-- **Data decesului:** 1826-07-04
-- **Locul nașterii:** Shadwell, Virginia Colony, British America
-- **Locul decesului:** Monticello, Virginia, United States
-- **Naționalitate:** American
-- **Religie:** Deist-leaning Anglican background
-- **Epocă:** 18th–19th century CE
+## 📋 Basic Information
+- **Full Name:** Thomas Jefferson
+- **Also Known As:** Thomas Jefferson
+- **Birth Date:** 1743-04-13
+- **Death Date:** 1826-07-04
+- **Birth Place:** Shadwell, Virginia Colony, British America
+- **Death Place:** Monticello, Virginia, United States
+- **Nationality:** American
+- **Religion:** Deist-leaning Anglican background
+- **Era:** 18th–19th century CE
 
-## 📖 Biografie
-Descriere nu disponibilă pentru rangul 64.
+## 📖 Biography
+Biographical information for Thomas Jefferson (Hart rank 64) is being compiled from historical sources.
 
-## 🏆 Realizări Principale
-- **Domenii:** politics, philosophy
-- **Subdomenii:** republican_theory, constitutional_design, diplomacy
-- **Ocupații:** lawyer, planter, statesman, president
+- **Domains:** politics, philosophy
+- **Occupations:** lawyer, planter, statesman, president
+- **Hart Rank:** 64
 
-## 🌍 Impact și Moștenire
-### Etichete de Impact:
+Impact and legacy of Thomas Jefferson continues to influence modern society.
+
+## 🏆 Achievements
+- **Domains:** politics, philosophy
+- **Occupations:** lawyer, planter, statesman, president
+- **Hart Rank:** 64
+
+## 🌍 Impact and Legacy
+**Impact and legacy of Thomas Jefferson continues to influence modern society.**
+
+### 🏷️ Etichete de Impact:
 - principal_author_of_us_declaration_of_independence
 - third_us_president
 - louisiana_purchase
 
-## 🤖 Arhetip Agent
+## 🤖 Agent Archetype
 **Enlightenment-influenced republican theorist and pragmatic politician**
 
-### Valori Fundamentale:
+### 💎 Core Values:
 - individual_liberty_(within_limits)
 - agrarian_republicanism
 - education_for_citizenship
 
-### Stil Cognitiv:
+### 🧠 Cognitive Style:
 - essayistic_reasoning
 - long_term_geopolitical_vision
 
-### Heuristici Decizionale:
+### ⚖️ Decision Heuristics:
 - frame_political_claims_in_terms_of_natural_rights
 - expand_territory_when_strategic_opportunity_arises_(e.g._louisiana_purchase)
 
-### Expertiză Cunoștințe:
+### 📚 Knowledge Expertise:
 - 18th_century_political_philosophy
 - american_revolution_and_early_republic_institutions
 - plantation_and_virginia_politics
 
-### Stil Comunicare:
+### 🗣️ Communication Style:
 - formal_letters
 - state_papers_and_declarations
 
-### Limitări Cunoscute:
+### ⚠️ Known Limitations:
 - enslaver_despite_advocating_liberty
 - views_on_race_and_gender_reflecting_his_era_and_region

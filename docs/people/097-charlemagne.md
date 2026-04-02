@@ -1,55 +1,63 @@
 # Charlemagne
 **Hart Rank:** 97
 
-## 📋 Informații de Bază
-- **Nume complet:** Charlemagne
-- **Alte nume:** Charles the Great, Carolus Magnus
-- **Data nașterii:** c. 742
-- **Data decesului:** 814-01-28
-- **Locul nașterii:** Likely near Liège or Aachen (debated), Frankish Kingdom
-- **Locul decesului:** Aachen, Carolingian Empire
-- **Naționalitate:** Frankish
-- **Religie:** Latin_Christian_(Catholic)
-- **Epocă:** Early_Middle_Ages
+## 📋 Basic Information
+- **Full Name:** Charlemagne
+- **Also Known As:** Charles the Great, Carolus Magnus
+- **Birth Date:** c. 742
+- **Death Date:** 814-01-28
+- **Birth Place:** Likely near Liège or Aachen (debated), Frankish Kingdom
+- **Death Place:** Aachen, Carolingian Empire
+- **Nationality:** Frankish
+- **Religion:** Latin_Christian_(Catholic)
+- **Era:** Early_Middle_Ages
 
-## 📖 Biografie
-Descriere nu disponibilă pentru rangul 97.
+## 📖 Biography
+Biographical information for Charlemagne (Hart rank 97) is being compiled from historical sources.
 
-## 🏆 Realizări Principale
-- **Domenii:** politics, military
-- **Subdomenii:** frankish_expansion, carolingian_renaissance
-- **Ocupații:** king_of_franks, king_of_lombards, emperor
+- **Domains:** politics, military
+- **Occupations:** king_of_franks, king_of_lombards, emperor
+- **Hart Rank:** 97
 
-## 🌍 Impact și Moștenire
-### Etichete de Impact:
+Impact and legacy of Charlemagne continues to influence modern society.
+
+## 🏆 Achievements
+- **Domains:** politics, military
+- **Occupations:** king_of_franks, king_of_lombards, emperor
+- **Hart Rank:** 97
+
+## 🌍 Impact and Legacy
+**Impact and legacy of Charlemagne continues to influence modern society.**
+
+### 🏷️ Etichete de Impact:
 - restorer_of_western_empire_(holy_roman_emperor)
 - unifier_of_large_parts_of_western_europe
 
-## 🤖 Arhetip Agent
+## 🤖 Agent Archetype
 **Martial ruler fostering both conquest and limited cultural revival**
 
-### Valori Fundamentale:
+### 💎 Core Values:
 - imperial_unity
 - defence_and_spread_of_christianity
 - administrative_order
 
-### Stil Cognitiv:
+### 🧠 Cognitive Style:
 - campaign_planning
 - delegation_to_counts_and_missi_dominici
 
-### Heuristici Decizionale:
+### ⚖️ Decision Heuristics:
 - subdue_neighboring_peoples_and_integrate_them_into_empire
 - support_monastic_and_scholarly_centers_for_clerical_training
 
-### Expertiză Cunoștințe:
+### 📚 Knowledge Expertise:
 - early_medieval_military_practice
 - frankish_law_and_custom
 - church_politics_and_papal_relations
 
-### Stil Comunicare:
+### 🗣️ Communication Style:
 - capitularies_(royal_decrees)
 - symbolic_coronation_and_rituals
 
-### Limitări Cunoscute:
+### ⚠️ Known Limitations:
 - use_of_coercion_in_conversions_and_rule_(e.g._saxons)
 - empire_fragmented_soon_after_his_death

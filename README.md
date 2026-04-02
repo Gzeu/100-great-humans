@@ -392,11 +392,169 @@ recommendation = adaptive.get_adaptive_recommendation(
 )
 ```
 
+## **Usage Examples**
+
+### **Quick Start**
+```python
+from great_humans import SkillSelector, EnhancedAgent, PredefinedChains
+
+# Smart selection for task
+selector = SkillSelector()
+best_agent, best_skill, score = selector.select_best_agent_skill_pair(
+    "Analyze ethical implications of AI"
+)
+
+# Execute with learning
+from great_humans import SkillLearningSystem
+learning = SkillLearningSystem()
+result = learning.execute_skill_with_learning(
+    agent_id=best_agent,
+    skill=best_skill,
+    context={"problem": "AI ethics"}
+)
+```
+
+### **As Agent API - System Prompt Example**
+```python
+from great_humans import build_system_prompt
+
+# Get system prompt for Newton
+prompt = build_system_prompt(2)  # Newton
+
+# Use in LLM
+print(prompt)
+# Output:
+# You are an AI agent role-playing as Isaac Newton (Hart rank 2) from the project "100 Great Humans".
+# 
+# Core Identity
+# **Archetype:** Analytical scientist and system builder
+# **Era:** 17th–18th century CE
+# **Regions:** Europe
+# 
+# Core Values
+# - systematic_inquiry
+# - empirical_validation
+# - mathematical_rigorous
+# - intellectual_honesty
+# - universal_laws
+# 
+# Cognitive Style
+# - methodical_analysis
+# - experimental_validation
+# - mathematical_modeling
+# - deductive_reasoning
+# - systematic_thinking
+# 
+# Decision Heuristics
+# - break_down_complex_problems
+# - seek_empirical_evidence
+# - use_mathematical_tools
+# - validate_before_concluding
+# - consider_alternative_hypotheses
+```
+
+### **As Encyclopedia - Knowledge Retrieval**
+```python
+from great_humans import load_all, by_id
+
+# Load all agents as encyclopedia
+agents = load_all()
+
+# Get specific person's complete profile
+newton = by_id(2)  # Isaac Newton
+
+# Access all biographical information
+print(f"Name: {newton['name']}")
+print(f"Birth: {newton['birth_date']}")
+print(f"Death: {newton['death_date']}")
+print(f"Birth Place: {newton['birth_place']}")
+print(f"Occupations: {newton['occupations']}")
+print(f"Domains: {newton['domains']}")
+
+# Get detailed biography from MD file
+profile_md = newton.get('profile_md')
+if profile_md and Path(profile_md).exists():
+    with open(profile_md, 'r', encoding='utf-8') as f:
+        biography = f.read()
+    print(f"\nBiography:\n{biography[:500]}...")
+```
+
+### **Advanced Usage - Complex Workflow**
+```python
+from great_humans import AgentCouncil, PredefinedChains, AdaptiveSkillSystem
+
+# Create diverse council for complex problem
+council = AgentCouncil([2, 10, 1])  # Newton, Einstein, Muhammad
+
+# Multi-step problem solving
+# Step 1: Research phase
+research_chain = PredefinedChains.research_and_analysis(
+    agent_id=2, # Newton
+    topic="Quantum computing implications"
+)
+research_result = research_chain.execute_chain()
+
+# Step 2: Creative solutions
+creative_chain = PredefinedChains.creative_problem_solving(
+    agent_id=10, # Einstein
+    challenge="Quantum computing applications"
+)
+creative_result = creative_chain.execute_chain()
+
+# Step 3: Strategic implementation
+strategic_chain = PredefinedChains.strategic_communication(
+    agent_id=1, # Muhammad
+    situation="Global quantum governance",
+    audience="world_leaders"
+)
+strategic_result = strategic_chain.execute_chain()
+
+# Get adaptive recommendations
+adaptive = AdaptiveSkillSystem()
+recommendation = adaptive.get_adaptive_recommendation(
+    agent_id=2,
+    task="Advanced physics education",
+    context={"domain": "science"}
+)
+```
+
+### **API Integration Example**
+```python
+import requests
+
+# Use the FastAPI server
+API_BASE = "http://localhost:8000"
+
+# Get best agent for task
+response = requests.post(f"{API_BASE}/selection/best", json={
+    "task": "Design renewable energy solution",
+    "context": {"domain": "technology"}
+})
+data = response.json()
+
+print(f"Best agent: {data['best_agent']['name']}")
+print(f"Best skill: {data['best_skill']}")
+print(f"Fitness score: {data['fitness_score']:.3f}")
+
+# Execute skill chain
+response = requests.post(f"{API_BASE}/chains/predefined/innovation_development", json={
+    "agent_id": 2,
+    "context": {
+        "problem": "Space travel challenges",
+        "constraints": ["physics", "resources"]
+    }
+})
+result = response.json()
+
+print(f"Chain completed: {result['result']['completed']}")
+print(f"Steps executed: {len(result['result']['results'])}")
+```
+
 ## **Installation & Setup**
 
 ### **Development Setup**
 ```bash
-git clone https://github.com/Gzeu/100-great-hreat-humans.git
+git clone https://github.com/Gzeu/100-great-humans.git
 cd 100-great-humans
 pip install -e .
 ```
@@ -406,9 +564,25 @@ pip install -e .
 pip install great-humans
 ```
 
+### **API Server**
+```bash
+cd api
+pip install -r requirements.txt
+python start_server.py
+# Access: http://localhost:8000/docs
+```
+
+### **Docker Deployment**
+```bash
+cd api
+docker-compose up -d
+# Access: http://localhost/docs
+```
+
 ### **Dependencies**
 - Python 3.8+
 - PyYAML (for YAML processing)
+- FastAPI (for API server)
 - No external dependencies required for core functionality
 
 ## **License**

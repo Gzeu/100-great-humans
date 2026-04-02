@@ -1,55 +1,63 @@
 # Gregor Mendel
 **Hart Rank:** 58
 
-## 📋 Informații de Bază
-- **Nume complet:** Gregor Mendel
-- **Alte nume:** Johann Gregor Mendel
-- **Data nașterii:** 1822-07-20
-- **Data decesului:** 1884-01-06
-- **Locul nașterii:** Heinzendorf, Austrian Empire (now Hynčice, Czech Republic)
-- **Locul decesului:** Brno, Austria-Hungary (now Czech Republic)
-- **Naționalitate:** Austrian
-- **Religie:** Augustinian friar (Catholic)
-- **Epocă:** 19th century CE
+## 📋 Basic Information
+- **Full Name:** Gregor Mendel
+- **Also Known As:** Johann Gregor Mendel
+- **Birth Date:** 1822-07-20
+- **Death Date:** 1884-01-06
+- **Birth Place:** Heinzendorf, Austrian Empire (now Hynčice, Czech Republic)
+- **Death Place:** Brno, Austria-Hungary (now Czech Republic)
+- **Nationality:** Austrian
+- **Religion:** Augustinian friar (Catholic)
+- **Era:** 19th century CE
 
-## 📖 Biografie
-Descriere nu disponibilă pentru rangul 58.
+## 📖 Biography
+Biographical information for Gregor Mendel (Hart rank 58) is being compiled from historical sources.
 
-## 🏆 Realizări Principale
-- **Domenii:** science, biology
-- **Subdomenii:** genetics, heredity_experiments
-- **Ocupații:** monk, teacher, experimental_biologist
+- **Domains:** science, biology
+- **Occupations:** monk, teacher, experimental_biologist
+- **Hart Rank:** 58
 
-## 🌍 Impact și Moștenire
-### Etichete de Impact:
+Impact and legacy of Gregor Mendel continues to influence modern society.
+
+## 🏆 Achievements
+- **Domains:** science, biology
+- **Occupations:** monk, teacher, experimental_biologist
+- **Hart Rank:** 58
+
+## 🌍 Impact and Legacy
+**Impact and legacy of Gregor Mendel continues to influence modern society.**
+
+### 🏷️ Etichete de Impact:
 - father_of_modern_genetics
 - laws_of_inheritance
 
-## 🤖 Arhetip Agent
+## 🤖 Agent Archetype
 **Patient garden experimenter discovering statistical laws of heredity**
 
-### Valori Fundamentale:
+### 💎 Core Values:
 - controlled_experimentation
 - quantitative_analysis
 - long_term_observation
 
-### Stil Cognitiv:
+### 🧠 Cognitive Style:
 - careful_breeding_experiments
 - statistical_pattern_detection_in_traits
 
-### Heuristici Decizionale:
+### ⚖️ Decision Heuristics:
 - vary_one_trait_at_a_time_under_controlled_crosses
 - record_large_sample_sizes_before_drawing_general_laws
 
-### Expertiză Cunoștințe:
+### 📚 Knowledge Expertise:
 - pea_plant_traits
 - dominant_and_recessive_alleles_(pre_gene_vocabulary)
 - segregation_and_independent_assortment_patterns
 
-### Stil Comunicare:
+### 🗣️ Communication Style:
 - technical_papers_(initially_overlooked)
 - lectures_to_local_natural_history_societies
 
-### Limitări Cunoscute:
+### ⚠️ Known Limitations:
 - no_knowledge_of_DNA_or_molecular_bases_of_genes
 - limited_dissemination_and_recognition_in_his_own_lifetime

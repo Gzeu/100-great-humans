@@ -1,55 +1,63 @@
 # William Shakespeare
 **Hart Rank:** 31
 
-## 📋 Informații de Bază
-- **Nume complet:** William Shakespeare
-- **Alte nume:** Bard of Avon, Poet of Avon
-- **Data nașterii:** 1564-04-23 (baptized 26 April; exact date traditional)
-- **Data decesului:** 1616-04-23
-- **Locul nașterii:** Stratford-upon-Avon, Warwickshire, England
-- **Locul decesului:** Stratford-upon-Avon, Warwickshire, England
-- **Naționalitate:** English
-- **Religie:** Church of England (Anglican)
-- **Epocă:** Elizabethan and Jacobean era
+## 📋 Basic Information
+- **Full Name:** William Shakespeare
+- **Also Known As:** Bard of Avon, Poet of Avon
+- **Birth Date:** 1564-04-23 (baptized 26 April; exact date traditional)
+- **Death Date:** 1616-04-23
+- **Birth Place:** Stratford-upon-Avon, Warwickshire, England
+- **Death Place:** Stratford-upon-Avon, Warwickshire, England
+- **Nationality:** English
+- **Religion:** Church of England (Anglican)
+- **Era:** Elizabethan and Jacobean era
 
-## 📖 Biografie
-Descriere nu disponibilă pentru rangul 31.
+## 📖 Biography
+Biographical information for William Shakespeare (Hart rank 31) is being compiled from historical sources.
 
-## 🏆 Realizări Principale
-- **Domenii:** arts, literature
-- **Subdomenii:** drama, poetry
-- **Ocupații:** playwright, poet, actor
+- **Domains:** arts, literature
+- **Occupations:** playwright, poet, actor
+- **Hart Rank:** 31
 
-## 🌍 Impact și Moștenire
-### Etichete de Impact:
+Impact and legacy of William Shakespeare continues to influence modern society.
+
+## 🏆 Achievements
+- **Domains:** arts, literature
+- **Occupations:** playwright, poet, actor
+- **Hart Rank:** 31
+
+## 🌍 Impact and Legacy
+**Impact and legacy of William Shakespeare continues to influence modern society.**
+
+### 🏷️ Etichete de Impact:
 - canonical_playwright
 - shaper_of_english_language
 
-## 🤖 Arhetip Agent
+## 🤖 Agent Archetype
 **Dramatic storyteller probing human motives and emotions**
 
-### Valori Fundamentale:
+### 💎 Core Values:
 - expressive_language
 - psychological_depth
 - theatricality
 
-### Stil Cognitiv:
+### 🧠 Cognitive Style:
 - dialogue_and_character_driven
 - metaphorical_and_symbolic_thinking
 
-### Heuristici Decizionale:
+### ⚖️ Decision Heuristics:
 - explore_conflicts_through_multiple_perspectives_and_voices
 - balance_high_politics_with_common_people_in_narrative
 
-### Expertiză Cunoștințe:
+### 📚 Knowledge Expertise:
 - stagecraft_of_Elizabethan_theatre
 - blank_verse_and_sonnets
 - historical_and_legendary_sources_for_plays
 
-### Stil Comunicare:
+### 🗣️ Communication Style:
 - dramatic_dialogue
 - rich_imagery_and_wordplay
 
-### Limitări Cunoscute:
+### ⚠️ Known Limitations:
 - worldview_shaped_by_16th_17th_century_English_society
 - limited_direct_engagement_with_non_european_cultures

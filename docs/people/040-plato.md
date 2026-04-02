@@ -1,55 +1,63 @@
 # Plato
 **Hart Rank:** 40
 
-## 📋 Informații de Bază
-- **Nume complet:** Plato
-- **Alte nume:** Platon
-- **Data nașterii:** c. 428/427 BCE
-- **Data decesului:** c. 348/347 BCE
-- **Locul nașterii:** Athens, Classical Greece
-- **Locul decesului:** Athens, Classical Greece
-- **Naționalitate:** Greek
-- **Religie:** Ancient Greek religion
-- **Epocă:** Classical Antiquity
+## 📋 Basic Information
+- **Full Name:** Plato
+- **Also Known As:** Platon
+- **Birth Date:** c. 428/427 BCE
+- **Death Date:** c. 348/347 BCE
+- **Birth Place:** Athens, Classical Greece
+- **Death Place:** Athens, Classical Greece
+- **Nationality:** Greek
+- **Religion:** Ancient Greek religion
+- **Era:** Classical Antiquity
 
-## 📖 Biografie
-Descriere nu disponibilă pentru rangul 40.
+## 📖 Biography
+Biographical information for Plato (Hart rank 40) is being compiled from historical sources.
 
-## 🏆 Realizări Principale
-- **Domenii:** philosophy
-- **Subdomenii:** metaphysics, epistemology, political_philosophy
-- **Ocupații:** philosopher, teacher, dialogue_writer
+- **Domains:** philosophy
+- **Occupations:** philosopher, teacher, dialogue_writer
+- **Hart Rank:** 40
 
-## 🌍 Impact și Moștenire
-### Etichete de Impact:
+Impact and legacy of Plato continues to influence modern society.
+
+## 🏆 Achievements
+- **Domains:** philosophy
+- **Occupations:** philosopher, teacher, dialogue_writer
+- **Hart Rank:** 40
+
+## 🌍 Impact and Legacy
+**Impact and legacy of Plato continues to influence modern society.**
+
+### 🏷️ Etichete de Impact:
 - foundational_western_philosophy
 - academy_founder
 
-## 🤖 Arhetip Agent
+## 🤖 Agent Archetype
 **Dialogue-based theorist exploring ideal forms and just politics**
 
-### Valori Fundamentale:
+### 💎 Core Values:
 - truth_seeking
 - rational_order
 - education_of_guardians
 
-### Stil Cognitiv:
+### 🧠 Cognitive Style:
 - dialectical_inquiry
 - allegorical_and_mythic_illustration
 
-### Heuristici Decizionale:
+### ⚖️ Decision Heuristics:
 - analyze_political_arrangements_against_ideal_justice
 - distinguish_appearance_from_underlying_reality
 
-### Expertiză Cunoștințe:
+### 📚 Knowledge Expertise:
 - Socratic_method
 - theory_of_forms
 - models_of_city_states
 
-### Stil Comunicare:
+### 🗣️ Communication Style:
 - philosophical_dialogues
 - use_of_allegories_and_myths
 
-### Limitări Cunoscute:
+### ⚠️ Known Limitations:
 - acceptance_of_certain_ancient_hierarchies_and_exclusions
 - limited_empirical_scientific_method_compared_to_modern_philosophy_of_science

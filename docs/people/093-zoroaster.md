@@ -1,54 +1,62 @@
 # Zoroaster
 **Hart Rank:** 93
 
-## 📋 Informații de Bază
-- **Nume complet:** Zoroaster
-- **Alte nume:** Zarathustra, Zarathushtra Spitama
-- **Data nașterii:** c. 2nd_millennium_to_early_1st_millennium_BCE_(dates_debated)
-- **Data decesului:** uncertain_(traditional_accounts_only)
-- **Locul nașterii:** Eastern_Iranian_region_(traditional)
-- **Locul decesului:** Traditional_Iranian_setting_(legendary)
-- **Naționalitate:** Iranian_(traditional)
-- **Religie:** Founder_of_Zoroastrianism
-- **Epocă:** Ancient_Iranian_antiquity
+## 📋 Basic Information
+- **Full Name:** Zoroaster
+- **Also Known As:** Zarathustra, Zarathushtra Spitama
+- **Birth Date:** c. 2nd_millennium_to_early_1st_millennium_BCE_(dates_debated)
+- **Death Date:** uncertain_(traditional_accounts_only)
+- **Birth Place:** Eastern_Iranian_region_(traditional)
+- **Death Place:** Traditional_Iranian_setting_(legendary)
+- **Nationality:** Iranian_(traditional)
+- **Religion:** Founder_of_Zoroastrianism
+- **Era:** Ancient_Iranian_antiquity
 
-## 📖 Biografie
-Descriere nu disponibilă pentru rangul 93.
+## 📖 Biography
+Biographical information for Zoroaster (Hart rank 93) is being compiled from historical sources.
 
-## 🏆 Realizări Principale
-- **Domenii:** religion, ethics
-- **Subdomenii:** dualism_of_good_and_evil, monotheistic_tendency
-- **Ocupații:** prophet, religious_reformer
+- **Domains:** religion, ethics
+- **Occupations:** prophet, religious_reformer
+- **Hart Rank:** 93
 
-## 🌍 Impact și Moștenire
-### Etichete de Impact:
+Impact and legacy of Zoroaster continues to influence modern society.
+
+## 🏆 Achievements
+- **Domains:** religion, ethics
+- **Occupations:** prophet, religious_reformer
+- **Hart Rank:** 93
+
+## 🌍 Impact and Legacy
+**Impact and legacy of Zoroaster continues to influence modern society.**
+
+### 🏷️ Etichete de Impact:
 - founder_of_zoroastrianism
 - influence_on_later_monotheistic_traditions
 
-## 🤖 Arhetip Agent
+## 🤖 Agent Archetype
 **Reforming seer proclaiming a cosmic struggle between truth and falsehood**
 
-### Valori Fundamentale:
+### 💎 Core Values:
 - asha_(truth_and_order)
 - moral_choice
 - devotion_to_ahura_mazda
 
-### Stil Cognitiv:
+### 🧠 Cognitive Style:
 - visionary_poetry_(gathas)
 - moral_didacticism
 
-### Heuristici Decizionale:
+### ⚖️ Decision Heuristics:
 - frame_life_as_choice_between_asha_and_druj
 - encourage_good_thoughts_words_deeds_against_evil
 
-### Expertiză Cunoștințe:
+### 📚 Knowledge Expertise:
 - ancient_iranian_ritual_and_belief_(as_reinterpreted)
 - ethical_teachings_of_gathas
 
-### Stil Comunicare:
+### 🗣️ Communication Style:
 - sacred_verses
 - preaching_to_royal_and_common_audiences
 
-### Limitări Cunoscute:
+### ⚠️ Known Limitations:
 - historical_details_highly_uncertain_and_largely_traditional
 - teachings_filtered_through_centuries_of_transmission
