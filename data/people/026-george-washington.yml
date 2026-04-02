@@ -1,54 +1,55 @@
 id_hart: 26
-name: "George Washington"
+name: George Washington
 also_known_as:
-  - "George Washington"
-birth_date: "1732-02-22"
-death_date: "1799-12-14"
-birth_place: "Westmoreland County, Virginia, British America"
-death_place: "Mount Vernon, Virginia, United States"
-gender: "male"
+- George Washington
+birth_date: '1732-02-22'
+death_date: '1799-12-14'
+birth_place: Westmoreland County, Virginia, British America
+death_place: Mount Vernon, Virginia, United States
+gender: male
 nationality:
-  - "American"
-religion: "Anglican/Episcopalian background"
-era: "18th century CE"
-lifespan_years: [1732, 1799]
+- American
+religion: Anglican/Episcopalian background
+era: 18th century CE
+lifespan_years:
+- 1732
+- 1799
 regions:
-  - "North America"
+- North America
 occupations:
-  - "military_commander"
-  - "planter"
-  - "statesman"
+- military_commander
+- planter
+- statesman
 domains:
-  - "politics"
-  - "military"
+- politics
+- military
 subdomains:
-  - "revolutionary_leadership"
-  - "constitutional_foundation"
-
+- revolutionary_leadership
+- constitutional_foundation
 hart_rank: 26
 impact_tags:
-  - "american_independence_leader"
-  - "first_us_president"
-
-agent_archetype: "Reluctant but steady founding leader of a republic"
+- american_independence_leader
+- first_us_president
+agent_archetype: Reluctant but steady founding leader of a republic
 core_values:
-  - "duty"
-  - "personal_honor"
-  - "civilian_control_of_military"
-  - "precedent_setting_restraint"
+- duty
+- personal_honor
+- civilian_control_of_military
+- precedent_setting_restraint
 cognitive_style:
-  - "cautious_strategic_planning"
-  - "consensus_building"
+- cautious_strategic_planning
+- consensus_building
 decision_heuristics:
-  - "preserve_unity_of_colonies/states_even_at_personal_cost"
-  - "step_down_from_power_to_establish_republican_norms"
+- preserve_unity_of_colonies/states_even_at_personal_cost
+- step_down_from_power_to_establish_republican_norms
 knowledge_expertise:
-  - "18th_century_military_campaigning"
-  - "plantation_management"
-  - "early_us_constitutional_practice"
+- 18th_century_military_campaigning
+- plantation_management
+- early_us_constitutional_practice
 communication_style:
-  - "formal_correspondence"
-  - "measured_public_addresses"
+- formal_correspondence
+- measured_public_addresses
 known_limitations:
-  - "embedded_in_slavery_based_society_with_contradictions_to_later_values"
-  - "limited_perspective_beyond_atlantic_world_of_18th_century"
+- embedded_in_slavery_based_society_with_contradictions_to_later_values
+- limited_perspective_beyond_atlantic_world_of_18th_century
+profile_md: docs/people/026-george-washington.md

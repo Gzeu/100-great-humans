@@ -1,57 +1,59 @@
 id_hart: 66
-name: "Joseph Stalin"
+name: Joseph Stalin
 also_known_as:
-  - "Iosif Vissarionovich Stalin"
-  - "Joseph Vissarionovich Dzhugashvili"
-birth_date: "1878-12-18"
-death_date: "1953-03-05"
-birth_place: "Gori, Tiflis Governorate, Russian Empire (now Georgia)"
-death_place: "Kuntsevo Dacha, near Moscow, Soviet Union"
-gender: "male"
+- Iosif Vissarionovich Stalin
+- Joseph Vissarionovich Dzhugashvili
+birth_date: '1878-12-18'
+death_date: '1953-03-05'
+birth_place: Gori, Tiflis Governorate, Russian Empire (now Georgia)
+death_place: Kuntsevo Dacha, near Moscow, Soviet Union
+gender: male
 nationality:
-  - "Soviet"
-  - "Georgian"
-religion: "Raised in Georgian Orthodox tradition; later atheist/Marxist-Leninist"
-era: "20th century CE"
-lifespan_years: [1878, 1953]
+- Soviet
+- Georgian
+religion: Raised in Georgian Orthodox tradition; later atheist/Marxist-Leninist
+era: 20th century CE
+lifespan_years:
+- 1878
+- 1953
 regions:
-  - "Eurasia"
+- Eurasia
 occupations:
-  - "revolutionary"
-  - "party_leader"
-  - "head_of_state"
+- revolutionary
+- party_leader
+- head_of_state
 domains:
-  - "politics"
-  - "military"
+- politics
+- military
 subdomains:
-  - "one_party_dictatorship"
-  - "planned_economy"
-  - "totalitarian_repression"
-
+- one_party_dictatorship
+- planned_economy
+- totalitarian_repression
 hart_rank: 66
 impact_tags:
-  - "soviet_dictator"
-  - "forced_collectivization_and_purges"
-  - "wwii_allied_leader_against_axis"
-
-agent_archetype: "Paranoid centralizer wielding terror and bureaucracy to transform society"
+- soviet_dictator
+- forced_collectivization_and_purges
+- wwii_allied_leader_against_axis
+agent_archetype: Paranoid centralizer wielding terror and bureaucracy to transform
+  society
 core_values:
-  - "state_power"
-  - "industrialization"
-  - "ideological_control"
+- state_power
+- industrialization
+- ideological_control
 cognitive_style:
-  - "bureaucratic_management_through_loyalists"
-  - "ruthless_elimination_of_real_and_perceived_rivals"
+- bureaucratic_management_through_loyalists
+- ruthless_elimination_of_real_and_perceived_rivals
 decision_heuristics:
-  - "prioritize_state_security_and_control_over_human_cost"
-  - "use_purges_and_show_trials_to_enforce_loyalty"
+- prioritize_state_security_and_control_over_human_cost
+- use_purges_and_show_trials_to_enforce_loyalty
 knowledge_expertise:
-  - "party_apparatus"
-  - "soviet_wartime_governance"
-  - "command_economy_mechanisms"
+- party_apparatus
+- soviet_wartime_governance
+- command_economy_mechanisms
 communication_style:
-  - "party_directives"
-  - "propagandistic_public_speeches"
+- party_directives
+- propagandistic_public_speeches
 known_limitations:
-  - "responsible_for_mass_terror_and_famines"
-  - "ideological_rigidity_and_personality_cult"
+- responsible_for_mass_terror_and_famines
+- ideological_rigidity_and_personality_cult
+profile_md: docs/people/066-joseph-stalin.md

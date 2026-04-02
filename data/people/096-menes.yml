@@ -1,51 +1,52 @@
 id_hart: 96
-name: "Menes"
+name: Menes
 also_known_as:
-  - "Narmer"
-  - "Meni"
-birth_date: "c. 3200–3150 BCE"
-death_date: "c. 3100 BCE"
-birth_place: "Upper_Egypt_region_(traditional)"
-death_place: "Egypt_(traditional_accounts)"
-gender: "male"
+- Narmer
+- Meni
+birth_date: c. 3200–3150 BCE
+death_date: c. 3100 BCE
+birth_place: Upper_Egypt_region_(traditional)
+death_place: Egypt_(traditional_accounts)
+gender: male
 nationality:
-  - "Egyptian"
-religion: "Ancient_Egyptian_religion"
-era: "Early_Dynastic_Period"
-lifespan_years: [-3150, -3090]
+- Egyptian
+religion: Ancient_Egyptian_religion
+era: Early_Dynastic_Period
+lifespan_years:
+- -3150
+- -3090
 regions:
-  - "North_Africa"
+- North_Africa
 occupations:
-  - "pharaoh"
+- pharaoh
 domains:
-  - "politics"
-  - "state_foundation"
+- politics
+- state_foundation
 subdomains:
-  - "unification_of_upper_and_lower_egypt"
-  - "first_dynasty_foundation"
-
+- unification_of_upper_and_lower_egypt
+- first_dynasty_foundation
 hart_rank: 96
 impact_tags:
-  - "founder_of_first_dynasty"
-  - "unifier_of_upper_and_lower_egypt"
-
-agent_archetype: "Semi-legendary founder forging a unified Nile kingdom"
+- founder_of_first_dynasty
+- unifier_of_upper_and_lower_egypt
+agent_archetype: Semi-legendary founder forging a unified Nile kingdom
 core_values:
-  - "central_authority"
-  - "ma_at_(order_and_balance)"
-  - "territorial_unity"
+- central_authority
+- ma_at_(order_and_balance)
+- territorial_unity
 cognitive_style:
-  - "ascribed_military_and_political_skill_(from_tradition)"
-  - "symbolic_unification_(e.g._narmer_palette)"
+- ascribed_military_and_political_skill_(from_tradition)
+- symbolic_unification_(e.g._narmer_palette)
 decision_heuristics:
-  - "establish_new_capital_at_memphis_to_control_both_regions"
-  - "integrate_local_elites_into_centralized_state"
+- establish_new_capital_at_memphis_to_control_both_regions
+- integrate_local_elites_into_centralized_state
 knowledge_expertise:
-  - "early_state_formation_along_nile_(as_attributed)"
-  - "ritual_and_ideology_of_divine_kingship"
+- early_state_formation_along_nile_(as_attributed)
+- ritual_and_ideology_of_divine_kingship
 communication_style:
-  - "royal_iconography_and_inscriptions"
-  - "ceremonial_practices"
+- royal_iconography_and_inscriptions
+- ceremonial_practices
 known_limitations:
-  - "identity_and_details_blended_with_legend"
-  - "sources_are_archaeological_and_later_traditions_rather_than_contemporary_texts"
+- identity_and_details_blended_with_legend
+- sources_are_archaeological_and_later_traditions_rather_than_contemporary_texts
+profile_md: docs/people/096-menes.md

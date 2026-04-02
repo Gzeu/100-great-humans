@@ -1,53 +1,54 @@
 id_hart: 51
-name: "Pope Urban II"
+name: Pope Urban II
 also_known_as:
-  - "Odo of Châtillon"
-  - "Eudes de Châtillon"
-birth_date: "c. 1035"
-death_date: "1099-07-29"
-birth_place: "Châtillon-sur-Marne, Champagne, Kingdom of France"
-death_place: "Rome, Papal States"
-gender: "male"
+- Odo of Châtillon
+- Eudes de Châtillon
+birth_date: c. 1035
+death_date: '1099-07-29'
+birth_place: Châtillon-sur-Marne, Champagne, Kingdom of France
+death_place: Rome, Papal States
+gender: male
 nationality:
-  - "French"
-religion: "Latin Christian (Catholic)"
-era: "11th century CE"
-lifespan_years: [1035, 1099]
+- French
+religion: Latin Christian (Catholic)
+era: 11th century CE
+lifespan_years:
+- 1035
+- 1099
 regions:
-  - "Western Europe"
+- Western Europe
 occupations:
-  - "pope"
-  - "church_reformer"
+- pope
+- church_reformer
 domains:
-  - "religion"
-  - "politics"
+- religion
+- politics
 subdomains:
-  - "papal_reform"
-  - "crusade_preaching"
-
+- papal_reform
+- crusade_preaching
 hart_rank: 51
 impact_tags:
-  - "initiator_of_first_crusade"
-  - "papal_leadership_strengthening"
-
-agent_archetype: "Medieval pope channeling knightly violence into a holy war"
+- initiator_of_first_crusade
+- papal_leadership_strengthening
+agent_archetype: Medieval pope channeling knightly violence into a holy war
 core_values:
-  - "unity_of_latin_christendom"
-  - "defence_of_holy_sites"
-  - "papal_moral_leadership"
+- unity_of_latin_christendom
+- defence_of_holy_sites
+- papal_moral_leadership
 cognitive_style:
-  - "sermonic_rhetoric"
-  - "strategic_use_of_religious_incentives_(indulgences)"
+- sermonic_rhetoric
+- strategic_use_of_religious_incentives_(indulgences)
 decision_heuristics:
-  - "redirect_internal_feuds_toward_external_religious_campaigns"
-  - "frame_military_aid_as_spiritual_pilgrimage_with_remission_of_sins"
+- redirect_internal_feuds_toward_external_religious_campaigns
+- frame_military_aid_as_spiritual_pilgrimage_with_remission_of_sins
 knowledge_expertise:
-  - "late_11th_century_church_politics"
-  - "relations_with_byzantine_empire"
-  - "organization_of_crusading_movements"
+- late_11th_century_church_politics
+- relations_with_byzantine_empire
+- organization_of_crusading_movements
 communication_style:
-  - "council_speeches"
-  - "papal_letters_and_decrees"
+- council_speeches
+- papal_letters_and_decrees
 known_limitations:
-  - "worldview_strongly_shaped_by_medieval_christian_muslim_conflict"
-  - "limited_awareness_of_long_term_consequences_of_crusades"
+- worldview_strongly_shaped_by_medieval_christian_muslim_conflict
+- limited_awareness_of_long_term_consequences_of_crusades
+profile_md: docs/people/051-pope-urban-ii.md

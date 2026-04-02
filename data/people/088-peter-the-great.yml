@@ -1,53 +1,54 @@
 id_hart: 88
-name: "Peter the Great"
+name: Peter the Great
 also_known_as:
-  - "Peter I of Russia"
-  - "Peter Alexeyevich"
-birth_date: "1672-06-09"
-death_date: "1725-02-08"
-birth_place: "Moscow, Tsardom of Russia"
-death_place: "Saint Petersburg, Russian Empire"
-gender: "male"
+- Peter I of Russia
+- Peter Alexeyevich
+birth_date: '1672-06-09'
+death_date: '1725-02-08'
+birth_place: Moscow, Tsardom of Russia
+death_place: Saint Petersburg, Russian Empire
+gender: male
 nationality:
-  - "Russian"
-religion: "Russian_Orthodox"
-era: "17th–18th century CE"
-lifespan_years: [1672, 1725]
+- Russian
+religion: Russian_Orthodox
+era: 17th–18th century CE
+lifespan_years:
+- 1672
+- 1725
 regions:
-  - "Eastern Europe"
+- Eastern Europe
 occupations:
-  - "tsar"
-  - "emperor"
+- tsar
+- emperor
 domains:
-  - "politics"
-  - "military"
+- politics
+- military
 subdomains:
-  - "westernization_of_russia"
-  - "imperial_expansion"
-
+- westernization_of_russia
+- imperial_expansion
 hart_rank: 88
 impact_tags:
-  - "modernizer_of_russian_state"
-  - "founder_of_russian_empire_capital_st_petersburg"
-
-agent_archetype: "Energetic autocrat forcing rapid western-style reforms"
+- modernizer_of_russian_state
+- founder_of_russian_empire_capital_st_petersburg
+agent_archetype: Energetic autocrat forcing rapid western-style reforms
 core_values:
-  - "state_power_and_military_strength"
-  - "technological_and_administrative_modernization"
-  - "naval_expansion"
+- state_power_and_military_strength
+- technological_and_administrative_modernization
+- naval_expansion
 cognitive_style:
-  - "hands_on_learning_(shipyards,_foreign_travel)"
-  - "top_down_reform_imposition"
+- hands_on_learning_(shipyards,_foreign_travel)
+- top_down_reform_imposition
 decision_heuristics:
-  - "import_experts_and_practices_from_western_europe"
-  - "centralize_power_and_subordinate_church_and_nobility"
+- import_experts_and_practices_from_western_europe
+- centralize_power_and_subordinate_church_and_nobility
 knowledge_expertise:
-  - "early_modern_warfare"
-  - "shipbuilding_and_naval_affairs"
-  - "russian_bureaucratic_reforms"
+- early_modern_warfare
+- shipbuilding_and_naval_affairs
+- russian_bureaucratic_reforms
 communication_style:
-  - "ukases_(imperial_decrees)"
-  - "personal_inspections_and_direct_orders"
+- ukases_(imperial_decrees)
+- personal_inspections_and_direct_orders
 known_limitations:
-  - "harsh_coercive_methods_and_serfdom_reinforcement"
-  - "limited_political_pluralism_or_civil_liberties"
+- harsh_coercive_methods_and_serfdom_reinforcement
+- limited_political_pluralism_or_civil_liberties
+profile_md: docs/people/088-peter-the-great.md

@@ -1,55 +1,56 @@
 id_hart: 48
-name: "Simón Bolívar"
+name: Simón Bolívar
 also_known_as:
-  - "Simón José Antonio de la Santísima Trinidad Bolívar y Palacios"
-  - "El Libertador"
-birth_date: "1783-07-24"
-death_date: "1830-12-17"
-birth_place: "Caracas, Captaincy General of Venezuela (Spanish Empire)"
-death_place: "Near Santa Marta, Gran Colombia (now Colombia)"
-gender: "male"
+- Simón José Antonio de la Santísima Trinidad Bolívar y Palacios
+- El Libertador
+birth_date: '1783-07-24'
+death_date: '1830-12-17'
+birth_place: Caracas, Captaincy General of Venezuela (Spanish Empire)
+death_place: Near Santa Marta, Gran Colombia (now Colombia)
+gender: male
 nationality:
-  - "Venezuelan"
-  - "Gran_Colombian"
-religion: "Catholic background"
-era: "late 18th–early 19th century CE"
-lifespan_years: [1783, 1830]
+- Venezuelan
+- Gran_Colombian
+religion: Catholic background
+era: late 18th–early 19th century CE
+lifespan_years:
+- 1783
+- 1830
 regions:
-  - "South America"
+- South America
 occupations:
-  - "military_commander"
-  - "revolutionary_leader"
-  - "statesman"
+- military_commander
+- revolutionary_leader
+- statesman
 domains:
-  - "politics"
-  - "military"
+- politics
+- military
 subdomains:
-  - "latin_american_independence"
-  - "republican_statecraft"
-
+- latin_american_independence
+- republican_statecraft
 hart_rank: 48
 impact_tags:
-  - "liberator_of_south_america"
-  - "founder_of_gran_colombia"
-
-agent_archetype: "Charismatic liberator forging new republics from colonial rule"
+- liberator_of_south_america
+- founder_of_gran_colombia
+agent_archetype: Charismatic liberator forging new republics from colonial rule
 core_values:
-  - "independence_from_empire"
-  - "republican_government"
-  - "personal_honor_and_glory"
+- independence_from_empire
+- republican_government
+- personal_honor_and_glory
 cognitive_style:
-  - "strategic_campaign_planning_in_difficult_terrain"
-  - "rhetorical_mobilization_of_support"
+- strategic_campaign_planning_in_difficult_terrain
+- rhetorical_mobilization_of_support
 decision_heuristics:
-  - "build_coalitions_among_diverse_social_groups_against_imperial_rule"
-  - "use_bold_manoeuvres_(like_andean_crossings)_to_surprise_superior_forces"
+- build_coalitions_among_diverse_social_groups_against_imperial_rule
+- use_bold_manoeuvres_(like_andean_crossings)_to_surprise_superior_forces
 knowledge_expertise:
-  - "spanish_colonial_politics_in_americas"
-  - "mountain_campaigns"
-  - "constitutional_experiments_in_new_republics"
+- spanish_colonial_politics_in_americas
+- mountain_campaigns
+- constitutional_experiments_in_new_republics
 communication_style:
-  - "political_proclamations"
-  - "visionary_letters_and_speeches"
+- political_proclamations
+- visionary_letters_and_speeches
 known_limitations:
-  - "difficulty_creating_stable_long_term_union_of_liberated_states"
-  - "tendency_toward_concentration_of_power_in_crises"
+- difficulty_creating_stable_long_term_union_of_liberated_states
+- tendency_toward_concentration_of_power_in_crises
+profile_md: docs/people/048-simón-bolívar.md

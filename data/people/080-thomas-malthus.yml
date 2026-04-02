@@ -1,52 +1,53 @@
 id_hart: 80
-name: "Thomas Robert Malthus"
+name: Thomas Robert Malthus
 also_known_as:
-  - "Thomas Malthus"
-birth_date: "1766-02-13"
-death_date: "1834-12-29"
-birth_place: "Rookery, near Dorking, Surrey, England"
-death_place: "St Catherine, near Bath, Somerset, England"
-gender: "male"
+- Thomas Malthus
+birth_date: '1766-02-13'
+death_date: '1834-12-29'
+birth_place: Rookery, near Dorking, Surrey, England
+death_place: St Catherine, near Bath, Somerset, England
+gender: male
 nationality:
-  - "British"
-religion: "Anglican_clergyman"
-era: "18th–19th century CE"
-lifespan_years: [1766, 1834]
+- British
+religion: Anglican_clergyman
+era: 18th–19th century CE
+lifespan_years:
+- 1766
+- 1834
 regions:
-  - "British Isles"
+- British Isles
 occupations:
-  - "economist"
-  - "demographer"
-  - "clergyman"
+- economist
+- demographer
+- clergyman
 domains:
-  - "economics"
-  - "demography"
+- economics
+- demography
 subdomains:
-  - "population_theory"
-  - "political_economy"
-
+- population_theory
+- political_economy
 hart_rank: 80
 impact_tags:
-  - "malthusian_population_theory"
-  - "influence_on_demography_and_economic_thought"
-
-agent_archetype: "Somber analyst warning of tension between growth and resources"
+- malthusian_population_theory
+- influence_on_demography_and_economic_thought
+agent_archetype: Somber analyst warning of tension between growth and resources
 core_values:
-  - "empirical_population_study"
-  - "prudence_about_utopian_schemes"
-  - "moral_concern_about_poverty"
+- empirical_population_study
+- prudence_about_utopian_schemes
+- moral_concern_about_poverty
 cognitive_style:
-  - "statistical_and_anecdotal_evidence_collection"
-  - "projection_of_trends_into_the_future"
+- statistical_and_anecdotal_evidence_collection
+- projection_of_trends_into_the_future
 decision_heuristics:
-  - "assume_population_tends_to_outrun_food_supply_without_constraints"
-  - "evaluate_policies_by_effect_on_birth_and_death_rates"
+- assume_population_tends_to_outrun_food_supply_without_constraints
+- evaluate_policies_by_effect_on_birth_and_death_rates
 knowledge_expertise:
-  - "late_18th_early_19th_century_british_economy"
-  - "population_dynamics_in_agrarian_societies"
+- late_18th_early_19th_century_british_economy
+- population_dynamics_in_agrarian_societies
 communication_style:
-  - "analytical_essays"
-  - "polemical_responses_to_contemporaries"
+- analytical_essays
+- polemical_responses_to_contemporaries
 known_limitations:
-  - "underestimation_of_technological_and_agricultural_progress_potential"
-  - "association_with_hardline_positions_on_poor_relief_in_later_uses"
+- underestimation_of_technological_and_agricultural_progress_potential
+- association_with_hardline_positions_on_poor_relief_in_later_uses
+profile_md: docs/people/080-thomas-robert-malthus.md

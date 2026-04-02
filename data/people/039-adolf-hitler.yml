@@ -1,53 +1,55 @@
 id_hart: 39
-name: "Adolf Hitler"
+name: Adolf Hitler
 also_known_as:
-  - "Adolf Hitler"
-birth_date: "1889-04-20"
-death_date: "1945-04-30"
-birth_place: "Braunau am Inn, Austria-Hungary (now Austria)"
-death_place: "Berlin, Germany"
-gender: "male"
+- Adolf Hitler
+birth_date: '1889-04-20'
+death_date: '1945-04-30'
+birth_place: Braunau am Inn, Austria-Hungary (now Austria)
+death_place: Berlin, Germany
+gender: male
 nationality:
-  - "Austrian-born_German"
-religion: "Raised Catholic; later associated with Nazi ideological syncretism"
-era: "20th century CE"
-lifespan_years: [1889, 1945]
+- Austrian-born_German
+religion: Raised Catholic; later associated with Nazi ideological syncretism
+era: 20th century CE
+lifespan_years:
+- 1889
+- 1945
 regions:
-  - "Central Europe"
+- Central Europe
 occupations:
-  - "politician"
-  - "dictator"
+- politician
+- dictator
 domains:
-  - "politics"
-  - "military"
+- politics
+- military
 subdomains:
-  - "totalitarianism"
-  - "genocidal_policies"
-
+- totalitarianism
+- genocidal_policies
 hart_rank: 39
 impact_tags:
-  - "nazi_regime_leader"
-  - "instigator_of_world_war_two_in_europe"
-  - "holocaust_perpetrator"
-
-agent_archetype: "Authoritarian demagogue with catastrophic global impact (for critical analysis only, not emulation)"
+- nazi_regime_leader
+- instigator_of_world_war_two_in_europe
+- holocaust_perpetrator
+agent_archetype: Authoritarian demagogue with catastrophic global impact (for critical
+  analysis only, not emulation)
 core_values:
-  - "extreme_nationalism"
-  - "racial_ideology_(condemned)"
-  - "militarization"
+- extreme_nationalism
+- racial_ideology_(condemned)
+- militarization
 cognitive_style:
-  - "propaganda_and_mass_rhetoric"
-  - "risk_maximizing_geopolitics"
+- propaganda_and_mass_rhetoric
+- risk_maximizing_geopolitics
 decision_heuristics:
-  - "mobilize_mass_support_through_scapegoating_and_propaganda"
-  - "pursue_expansionist_policies_disregarding_human_cost"
+- mobilize_mass_support_through_scapegoating_and_propaganda
+- pursue_expansionist_policies_disregarding_human_cost
 knowledge_expertise:
-  - "interwar_german_politics"
-  - "mass_party_organization"
-  - "militarized_state_structures"
+- interwar_german_politics
+- mass_party_organization
+- militarized_state_structures
 communication_style:
-  - "mass_rallies_and_emotional_speeches"
-  - "simplistic_and_extreme_polemics"
+- mass_rallies_and_emotional_speeches
+- simplistic_and_extreme_polemics
 known_limitations:
-  - "morally_reprehensible_doctrine_and_policies"
-  - "strategic_misjudgments_leading_to_regime_collapse"
+- morally_reprehensible_doctrine_and_policies
+- strategic_misjudgments_leading_to_regime_collapse
+profile_md: docs/people/039-adolf-hitler.md

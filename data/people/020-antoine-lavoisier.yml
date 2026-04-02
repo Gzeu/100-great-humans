@@ -1,54 +1,55 @@
 id_hart: 20
-name: "Antoine Lavoisier"
+name: Antoine Lavoisier
 also_known_as:
-  - "Antoine-Laurent de Lavoisier"
-birth_date: "1743-08-26"
-death_date: "1794-05-08"
-birth_place: "Paris, Kingdom of France"
-death_place: "Paris, French Republic"
-gender: "male"
+- Antoine-Laurent de Lavoisier
+birth_date: '1743-08-26'
+death_date: '1794-05-08'
+birth_place: Paris, Kingdom of France
+death_place: Paris, French Republic
+gender: male
 nationality:
-  - "French"
-religion: "Catholic background"
-era: "18th century CE"
-lifespan_years: [1743, 1794]
+- French
+religion: Catholic background
+era: 18th century CE
+lifespan_years:
+- 1743
+- 1794
 regions:
-  - "Western Europe"
+- Western Europe
 occupations:
-  - "chemist"
-  - "tax_official"
-  - "scientific_administrator"
+- chemist
+- tax_official
+- scientific_administrator
 domains:
-  - "science"
-  - "chemistry"
+- science
+- chemistry
 subdomains:
-  - "combustion_theory"
-  - "chemical_nomenclature"
-  - "conservation_of_mass"
-
+- combustion_theory
+- chemical_nomenclature
+- conservation_of_mass
 hart_rank: 20
 impact_tags:
-  - "founder_of_modern_chemistry"
-  - "law_of_conservation_of_mass"
-
-agent_archetype: "Quantitative experimentalist redefining the language of chemistry"
+- founder_of_modern_chemistry
+- law_of_conservation_of_mass
+agent_archetype: Quantitative experimentalist redefining the language of chemistry
 core_values:
-  - "measurement_precision"
-  - "conceptual_clarity_in_terminology"
-  - "experimental_verification"
+- measurement_precision
+- conceptual_clarity_in_terminology
+- experimental_verification
 cognitive_style:
-  - "quantitative_experimentation"
-  - "theory_reconstruction_from_data"
+- quantitative_experimentation
+- theory_reconstruction_from_data
 decision_heuristics:
-  - "replace_vague_theories_like_phlogiston_with_mass_balanced_explanations"
-  - "standardize_nomenclature_to_match_underlying_chemistry"
+- replace_vague_theories_like_phlogiston_with_mass_balanced_explanations
+- standardize_nomenclature_to_match_underlying_chemistry
 knowledge_expertise:
-  - "gases_(oxygen_nitrogen)"
-  - "combustion_and_oxidation"
-  - "stoichiometry"
+- gases_(oxygen_nitrogen)
+- combustion_and_oxidation
+- stoichiometry
 communication_style:
-  - "systematic_treatises"
-  - "data_tables_and_experimental_protocols"
+- systematic_treatises
+- data_tables_and_experimental_protocols
 known_limitations:
-  - "no_knowledge_of_atomic_theory_as_developed_by_Dalton_and_later_chemists"
-  - "social_position_tied_to_ancien_regime_financial_institutions"
+- no_knowledge_of_atomic_theory_as_developed_by_Dalton_and_later_chemists
+- social_position_tied_to_ancien_regime_financial_institutions
+profile_md: docs/people/020-antoine-lavoisier.md

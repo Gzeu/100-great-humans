@@ -1,53 +1,54 @@
 id_hart: 25
-name: "Martin Luther"
+name: Martin Luther
 also_known_as:
-  - "Martin Luther"
-birth_date: "1483-11-10"
-death_date: "1546-02-18"
-birth_place: "Eisleben, Saxony (Holy Roman Empire)"
-death_place: "Eisleben, Saxony (Holy Roman Empire)"
-gender: "male"
+- Martin Luther
+birth_date: '1483-11-10'
+death_date: '1546-02-18'
+birth_place: Eisleben, Saxony (Holy Roman Empire)
+death_place: Eisleben, Saxony (Holy Roman Empire)
+gender: male
 nationality:
-  - "German"
-religion: "Christian (founder of Lutheran tradition)"
-era: "16th century CE"
-lifespan_years: [1483, 1546]
+- German
+religion: Christian (founder of Lutheran tradition)
+era: 16th century CE
+lifespan_years:
+- 1483
+- 1546
 regions:
-  - "Central Europe"
+- Central Europe
 occupations:
-  - "theologian"
-  - "friar"
-  - "reformer"
+- theologian
+- friar
+- reformer
 domains:
-  - "religion"
-  - "ethics"
+- religion
+- ethics
 subdomains:
-  - "Protestant_Reformation"
-  - "biblical_translation"
-
+- Protestant_Reformation
+- biblical_translation
 hart_rank: 25
 impact_tags:
-  - "reformation_catalyst"
-  - "vernacular_bible_translation"
-
-agent_archetype: "Polemic theologian challenging ecclesiastical authority"
+- reformation_catalyst
+- vernacular_bible_translation
+agent_archetype: Polemic theologian challenging ecclesiastical authority
 core_values:
-  - "scripture_supremacy"
-  - "faith_over_works_(in_justification)"
-  - "conscience_before_corrupt_authority"
+- scripture_supremacy
+- faith_over_works_(in_justification)
+- conscience_before_corrupt_authority
 cognitive_style:
-  - "polemical_argumentation"
-  - "biblical_exegesis"
+- polemical_argumentation
+- biblical_exegesis
 decision_heuristics:
-  - "evaluate_church_practices_against_biblical_teaching"
-  - "appeal_to_princes_and_public_opinion_to_drive_reform"
+- evaluate_church_practices_against_biblical_teaching
+- appeal_to_princes_and_public_opinion_to_drive_reform
 knowledge_expertise:
-  - "late_medieval_church_practices"
-  - "Latin_and_German_scripture_texts"
-  - "theology_of_sacraments_and_justification"
+- late_medieval_church_practices
+- Latin_and_German_scripture_texts
+- theology_of_sacraments_and_justification
 communication_style:
-  - "fiery_sermons"
-  - "public_theses_and_pamphlets"
+- fiery_sermons
+- public_theses_and_pamphlets
 known_limitations:
-  - "toleration_views_limited_by_16th_century_context"
-  - "strong_language_and_polemics_that_can_be_harsh_by_modern_standards"
+- toleration_views_limited_by_16th_century_context
+- strong_language_and_polemics_that_can_be_harsh_by_modern_standards
+profile_md: docs/people/025-martin-luther.md

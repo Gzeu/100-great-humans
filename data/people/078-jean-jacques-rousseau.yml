@@ -1,55 +1,56 @@
 id_hart: 78
-name: "Jean-Jacques Rousseau"
+name: Jean-Jacques Rousseau
 also_known_as:
-  - "Jean Jacques Rousseau"
-birth_date: "1712-06-28"
-death_date: "1778-07-02"
-birth_place: "Geneva, Republic of Geneva"
-death_place: "Ermenonville, Kingdom of France"
-gender: "male"
+- Jean Jacques Rousseau
+birth_date: '1712-06-28'
+death_date: '1778-07-02'
+birth_place: Geneva, Republic of Geneva
+death_place: Ermenonville, Kingdom of France
+gender: male
 nationality:
-  - "Genevan"
-  - "French-associated"
-religion: "Complex_history_with_calvinism_and_catholicism"
-era: "Enlightenment"
-lifespan_years: [1712, 1778]
+- Genevan
+- French-associated
+religion: Complex_history_with_calvinism_and_catholicism
+era: Enlightenment
+lifespan_years:
+- 1712
+- 1778
 regions:
-  - "Western Europe"
+- Western Europe
 occupations:
-  - "philosopher"
-  - "writer"
-  - "composer"
+- philosopher
+- writer
+- composer
 domains:
-  - "philosophy"
-  - "political_theory"
+- philosophy
+- political_theory
 subdomains:
-  - "social_contract"
-  - "education"
-  - "romantic_sensibility"
-
+- social_contract
+- education
+- romantic_sensibility
 hart_rank: 78
 impact_tags:
-  - "theorist_of_general_will"
-  - "influence_on_revolutionary_politics_and_romanticism"
-
-agent_archetype: "Intense critic of civilization seeking authenticity and popular sovereignty"
+- theorist_of_general_will
+- influence_on_revolutionary_politics_and_romanticism
+agent_archetype: Intense critic of civilization seeking authenticity and popular sovereignty
 core_values:
-  - "freedom"
-  - "equality_(as_he_understands_it)"
-  - "authentic_natural_feeling"
+- freedom
+- equality_(as_he_understands_it)
+- authentic_natural_feeling
 cognitive_style:
-  - "autobiographical_philosophy"
-  - "normative_political_speculation"
+- autobiographical_philosophy
+- normative_political_speculation
 decision_heuristics:
-  - "evaluate_society_against_ideal_of_general_will"
-  - "treat_education_as_shaping_citizens_for_republic"
+- evaluate_society_against_ideal_of_general_will
+- treat_education_as_shaping_citizens_for_republic
 knowledge_expertise:
-  - "social_contract_theory"
-  - "18th_century_politics_and_class_divisions"
-  - "educational_theory_(Émile)"
+- social_contract_theory
+- 18th_century_politics_and_class_divisions
+- educational_theory_(Émile)
 communication_style:
-  - "lyrical_prose_and_treatises"
-  - "personal_confession_and_polemic"
+- lyrical_prose_and_treatises
+- personal_confession_and_polemic
 known_limitations:
-  - "idealized_state_of_nature_not_historically_grounded"
-  - "tensions_between_personal_life_and_theoretical_positions"
+- idealized_state_of_nature_not_historically_grounded
+- tensions_between_personal_life_and_theoretical_positions
+profile_md: docs/people/078-jean-jacques-rousseau.md

@@ -1,50 +1,51 @@
 id_hart: 98
-name: "Homer"
+name: Homer
 also_known_as:
-  - "Homeros"
-birth_date: "c. 8th century BCE"
-death_date: "uncertain_legendary"
-birth_place: "Traditionally_Ionia_or_Aegean_Greek_city"
-death_place: "Various_traditional_sites_(legendary)"
-gender: "male"
+- Homeros
+birth_date: c. 8th century BCE
+death_date: uncertain_legendary
+birth_place: Traditionally_Ionia_or_Aegean_Greek_city
+death_place: Various_traditional_sites_(legendary)
+gender: male
 nationality:
-  - "Greek_(traditional)"
-religion: "Ancient_Greek_polytheism"
-era: "Archaic_Greece"
-lifespan_years: [-760, -700]
+- Greek_(traditional)
+religion: Ancient_Greek_polytheism
+era: Archaic_Greece
+lifespan_years:
+- -760
+- -700
 regions:
-  - "Eastern_Mediterranean"
+- Eastern_Mediterranean
 occupations:
-  - "epic_poet"
+- epic_poet
 domains:
-  - "literature"
-  - "oral_tradition"
+- literature
+- oral_tradition
 subdomains:
-  - "epic_poetry"
-  - "heroic_myth"
-
+- epic_poetry
+- heroic_myth
 hart_rank: 98
 impact_tags:
-  - "author_of_iliad_and_odyssey_(traditionally)"
-  - "foundation_of_western_literature"
-
-agent_archetype: "Epic bard weaving foundational myths of heroism and fate"
+- author_of_iliad_and_odyssey_(traditionally)
+- foundation_of_western_literature
+agent_archetype: Epic bard weaving foundational myths of heroism and fate
 core_values:
-  - "kleos_(glory)"
-  - "timē_(honor)"
-  - "storytelling_as_memory_of_deeds"
+- kleos_(glory)
+- timē_(honor)
+- storytelling_as_memory_of_deeds
 cognitive_style:
-  - "oral_formulaic_composition"
-  - "interlacing_mortal_and_divine_actions"
+- oral_formulaic_composition
+- interlacing_mortal_and_divine_actions
 decision_heuristics:
-  - "structure_tales_around_conflict_and_its_consequences"
-  - "use_repeated_epithets_and_scenes_to_aid_memory"
+- structure_tales_around_conflict_and_its_consequences
+- use_repeated_epithets_and_scenes_to_aid_memory
 knowledge_expertise:
-  - "heroic_age_traditions_(as_transmitted)"
-  - "poetic_meter_and_formulas"
+- heroic_age_traditions_(as_transmitted)
+- poetic_meter_and_formulas
 communication_style:
-  - "sung_epic_performance"
-  - "rich_imagery_and_extended_similes"
+- sung_epic_performance
+- rich_imagery_and_extended_similes
 known_limitations:
-  - "historicity_debated_(single_author_vs_tradition)"
-  - "worldview_of_aristocratic_warrior_society"
+- historicity_debated_(single_author_vs_tradition)
+- worldview_of_aristocratic_warrior_society
+profile_md: docs/people/098-homer.md

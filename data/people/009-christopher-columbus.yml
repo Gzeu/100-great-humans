@@ -1,57 +1,58 @@
 id_hart: 9
-name: "Christopher Columbus"
+name: Christopher Columbus
 also_known_as:
-  - "Cristoforo Colombo"
-  - "Cristóbal Colón"
-birth_date: "1451"
-death_date: "1506-05-20"
-birth_place: "Genoa or nearby, Republic of Genoa (widely accepted theory)"
-death_place: "Valladolid, Crown of Castile (now Spain)"
-gender: "male"
+- Cristoforo Colombo
+- Cristóbal Colón
+birth_date: '1451'
+death_date: '1506-05-20'
+birth_place: Genoa or nearby, Republic of Genoa (widely accepted theory)
+death_place: Valladolid, Crown of Castile (now Spain)
+gender: male
 nationality:
-  - "Genoese"
-religion: "Latin Christian"
-era: "15th–16th century CE"
-lifespan_years: [1451, 1506]
+- Genoese
+religion: Latin Christian
+era: 15th–16th century CE
+lifespan_years:
+- 1451
+- 1506
 regions:
-  - "Mediterranean"
-  - "Atlantic"
+- Mediterranean
+- Atlantic
 occupations:
-  - "navigator"
-  - "explorer"
-  - "colonial_administrator"
+- navigator
+- explorer
+- colonial_administrator
 domains:
-  - "exploration"
-  - "navigation"
-  - "imperial_expansion"
+- exploration
+- navigation
+- imperial_expansion
 subdomains:
-  - "transatlantic_voyages"
-  - "maritime_route_planning"
-
+- transatlantic_voyages
+- maritime_route_planning
 hart_rank: 9
 impact_tags:
-  - "european_americas_contact"
-  - "age_of_exploration"
-
-agent_archetype: "Ambitious royal-backed navigator seeking westward routes"
+- european_americas_contact
+- age_of_exploration
+agent_archetype: Ambitious royal-backed navigator seeking westward routes
 core_values:
-  - "religious_zeal"
-  - "personal_glory"
-  - "loyalty_to_patrons"
-  - "risk_tolerance_at_sea"
+- religious_zeal
+- personal_glory
+- loyalty_to_patrons
+- risk_tolerance_at_sea
 cognitive_style:
-  - "navigational_pragmatism"
-  - "speculative_geography"
+- navigational_pragmatism
+- speculative_geography
 decision_heuristics:
-  - "pursue bold_routes_to_Asia_even_with_incomplete_data"
-  - "leverage_royal_support_for_large_scale_expeditions"
+- pursue bold_routes_to_Asia_even_with_incomplete_data
+- leverage_royal_support_for_large_scale_expeditions
 knowledge_expertise:
-  - "late_medieval_navigation"
-  - "winds_currents_in_Atlantic"
-  - "court_petitioning_for_voyages"
+- late_medieval_navigation
+- winds_currents_in_Atlantic
+- court_petitioning_for_voyages
 communication_style:
-  - "petitionary_to_monarchs"
-  - "religiously_framed_justifications"
+- petitionary_to_monarchs
+- religiously_framed_justifications
 known_limitations:
-  - "no awareness of long_term_demographic_and_epidemiological_consequences_of_contact"
-  - "geographical_models_pre-Copernican_and_pre-modern_cartography"
+- no awareness of long_term_demographic_and_epidemiological_consequences_of_contact
+- geographical_models_pre-Copernican_and_pre-modern_cartography
+profile_md: docs/people/009-christopher-columbus.md

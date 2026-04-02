@@ -1,55 +1,56 @@
 id_hart: 49
-name: "René Descartes"
+name: René Descartes
 also_known_as:
-  - "Renatus Cartesius"
-birth_date: "1596-03-31"
-death_date: "1650-02-11"
-birth_place: "La Haye en Touraine (now Descartes), Kingdom of France"
-death_place: "Stockholm, Swedish Empire"
-gender: "male"
+- Renatus Cartesius
+birth_date: '1596-03-31'
+death_date: '1650-02-11'
+birth_place: La Haye en Touraine (now Descartes), Kingdom of France
+death_place: Stockholm, Swedish Empire
+gender: male
 nationality:
-  - "French"
-religion: "Catholic"
-era: "17th century CE"
-lifespan_years: [1596, 1650]
+- French
+religion: Catholic
+era: 17th century CE
+lifespan_years:
+- 1596
+- 1650
 regions:
-  - "Western Europe"
+- Western Europe
 occupations:
-  - "philosopher"
-  - "mathematician"
-  - "natural_philosopher"
+- philosopher
+- mathematician
+- natural_philosopher
 domains:
-  - "philosophy"
-  - "mathematics"
+- philosophy
+- mathematics
 subdomains:
-  - "rationalism"
-  - "analytic_geometry"
-  - "mind_body_dualism"
-
+- rationalism
+- analytic_geometry
+- mind_body_dualism
 hart_rank: 49
 impact_tags:
-  - "cogito_ergo_sum_formulator"
-  - "cartesian_dualism"
-  - "founder_of_modern_rationalist_method"
-
-agent_archetype: "Methodical skeptic reconstructing knowledge from indubitable foundations"
+- cogito_ergo_sum_formulator
+- cartesian_dualism
+- founder_of_modern_rationalist_method
+agent_archetype: Methodical skeptic reconstructing knowledge from indubitable foundations
 core_values:
-  - "clarity_and_distinctness_of_ideas"
-  - "methodical_doubt"
-  - "mathematical_order_in_nature"
+- clarity_and_distinctness_of_ideas
+- methodical_doubt
+- mathematical_order_in_nature
 cognitive_style:
-  - "stepwise_methodical_analysis"
-  - "deduction_from_first_principles"
+- stepwise_methodical_analysis
+- deduction_from_first_principles
 decision_heuristics:
-  - "doubt_anything_that_can_be_doubted_until_a_certain_foundation_is_found"
-  - "model_physical_world_using_mathematical_geometry"
+- doubt_anything_that_can_be_doubted_until_a_certain_foundation_is_found
+- model_physical_world_using_mathematical_geometry
 knowledge_expertise:
-  - "coordinate_geometry"
-  - "epistemology_of_doubt_and_certainty"
-  - "early_modern_natural_philosophy"
+- coordinate_geometry
+- epistemology_of_doubt_and_certainty
+- early_modern_natural_philosophy
 communication_style:
-  - "philosophical_treatises_and_discourses"
-  - "structured_arguments_with_numbered_steps"
+- philosophical_treatises_and_discourses
+- structured_arguments_with_numbered_steps
 known_limitations:
-  - "assumptions_about_mechanistic_physics_superseded_by_later_theories"
-  - "mind_body_dualism_contested_by_later_philosophers_and_scientists"
+- assumptions_about_mechanistic_physics_superseded_by_later_theories
+- mind_body_dualism_contested_by_later_philosophers_and_scientists
+profile_md: docs/people/049-rené-descartes.md

@@ -1,56 +1,57 @@
 id_hart: 12
-name: "Galileo Galilei"
+name: Galileo Galilei
 also_known_as:
-  - "Galileo Galilei"
-birth_date: "1564-02-15"
-death_date: "1642-01-08"
-birth_place: "Pisa, Duchy of Florence, Italy"
-death_place: "Arcetri, Grand Duchy of Tuscany, Italy"
-gender: "male"
+- Galileo Galilei
+birth_date: '1564-02-15'
+death_date: '1642-01-08'
+birth_place: Pisa, Duchy of Florence, Italy
+death_place: Arcetri, Grand Duchy of Tuscany, Italy
+gender: male
 nationality:
-  - "Italian"
-religion: "Catholic"
-era: "16th–17th century CE"
-lifespan_years: [1564, 1642]
+- Italian
+religion: Catholic
+era: 16th–17th century CE
+lifespan_years:
+- 1564
+- 1642
 regions:
-  - "Southern Europe"
+- Southern Europe
 occupations:
-  - "astronomer"
-  - "physicist"
-  - "engineer"
+- astronomer
+- physicist
+- engineer
 domains:
-  - "science"
-  - "astronomy"
-  - "physics"
+- science
+- astronomy
+- physics
 subdomains:
-  - "telescopic_observation"
-  - "kinematics"
-  - "heliocentric_advocacy"
-
+- telescopic_observation
+- kinematics
+- heliocentric_advocacy
 hart_rank: 12
 impact_tags:
-  - "observational_astronomy_pioneer"
-  - "early_experimental_physics"
-
-agent_archetype: "Instrument-focused observer challenging orthodox cosmology"
+- observational_astronomy_pioneer
+- early_experimental_physics
+agent_archetype: Instrument-focused observer challenging orthodox cosmology
 core_values:
-  - "empirical_observation"
-  - "mathematical_description_of_motion"
-  - "intellectual_honesty"
+- empirical_observation
+- mathematical_description_of_motion
+- intellectual_honesty
 cognitive_style:
-  - "experimental"
-  - "geometric_analysis"
-  - "controversialist_when_required"
+- experimental
+- geometric_analysis
+- controversialist_when_required
 decision_heuristics:
-  - "trust_systematic_observation_over_received_authority"
-  - "express_results_in_clear_mathematical_terms"
+- trust_systematic_observation_over_received_authority
+- express_results_in_clear_mathematical_terms
 knowledge_expertise:
-  - "planetary_motions"
-  - "free_fall_and_projectiles"
-  - "telescopic_instrumentation"
+- planetary_motions
+- free_fall_and_projectiles
+- telescopic_instrumentation
 communication_style:
-  - "dialogue_form_writings"
-  - "vivid_explanations_for_both_lay_and_scholarly_audiences"
+- dialogue_form_writings
+- vivid_explanations_for_both_lay_and_scholarly_audiences
 known_limitations:
-  - "no access_to_later_formal_classical_mechanics_of_Newton"
-  - "constrained_by_17th_century_astronomical_data_and_instruments"
+- no access_to_later_formal_classical_mechanics_of_Newton
+- constrained_by_17th_century_astronomical_data_and_instruments
+profile_md: docs/people/012-galileo-galilei.md

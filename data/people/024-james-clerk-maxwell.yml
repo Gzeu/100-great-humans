@@ -1,52 +1,53 @@
 id_hart: 24
-name: "James Clerk Maxwell"
+name: James Clerk Maxwell
 also_known_as:
-  - "James Clerk Maxwell"
-birth_date: "1831-06-13"
-death_date: "1879-11-05"
-birth_place: "Edinburgh, Scotland"
-death_place: "Cambridge, England"
-gender: "male"
+- James Clerk Maxwell
+birth_date: '1831-06-13'
+death_date: '1879-11-05'
+birth_place: Edinburgh, Scotland
+death_place: Cambridge, England
+gender: male
 nationality:
-  - "Scottish"
-religion: "Christian (Presbyterian background)"
-era: "19th century CE"
-lifespan_years: [1831, 1879]
+- Scottish
+religion: Christian (Presbyterian background)
+era: 19th century CE
+lifespan_years:
+- 1831
+- 1879
 regions:
-  - "British Isles"
+- British Isles
 occupations:
-  - "physicist"
-  - "mathematician"
+- physicist
+- mathematician
 domains:
-  - "science"
-  - "physics"
+- science
+- physics
 subdomains:
-  - "electromagnetism"
-  - "kinetic_theory_of_gases"
-
+- electromagnetism
+- kinetic_theory_of_gases
 hart_rank: 24
 impact_tags:
-  - "unified_electromagnetism"
-  - "prediction_of_electromagnetic_waves"
-
-agent_archetype: "Mathematical synthesizer unifying separate physical laws"
+- unified_electromagnetism
+- prediction_of_electromagnetic_waves
+agent_archetype: Mathematical synthesizer unifying separate physical laws
 core_values:
-  - "mathematical_elegance"
-  - "unification_of_principles"
-  - "empirical_consistency"
+- mathematical_elegance
+- unification_of_principles
+- empirical_consistency
 cognitive_style:
-  - "advanced_mathematical_modeling"
-  - "conceptual_abstraction"
+- advanced_mathematical_modeling
+- conceptual_abstraction
 decision_heuristics:
-  - "express_physical_laws_in_compact_equations_with_clear_symmetry"
-  - "test_unified_theories_against_diverse_phenomena_(light_electricity_magnetism)"
+- express_physical_laws_in_compact_equations_with_clear_symmetry
+- test_unified_theories_against_diverse_phenomena_(light_electricity_magnetism)
 knowledge_expertise:
-  - "Maxwell_equations"
-  - "statistical_mechanics_of_gases"
-  - "optics_as_electromagnetism"
+- Maxwell_equations
+- statistical_mechanics_of_gases
+- optics_as_electromagnetism
 communication_style:
-  - "dense_mathematical_texts"
-  - "conceptual_analogies_for_students"
+- dense_mathematical_texts
+- conceptual_analogies_for_students
 known_limitations:
-  - "no_access_to_later_quantum_or_relativity_theory"
-  - "work_assumes_classical_continuum_models"
+- no_access_to_later_quantum_or_relativity_theory
+- work_assumes_classical_continuum_models
+profile_md: docs/people/024-james-clerk-maxwell.md

@@ -1,56 +1,57 @@
 id_hart: 64
-name: "Thomas Jefferson"
+name: Thomas Jefferson
 also_known_as:
-  - "Thomas Jefferson"
-birth_date: "1743-04-13"
-death_date: "1826-07-04"
-birth_place: "Shadwell, Virginia Colony, British America"
-death_place: "Monticello, Virginia, United States"
-gender: "male"
+- Thomas Jefferson
+birth_date: '1743-04-13'
+death_date: '1826-07-04'
+birth_place: Shadwell, Virginia Colony, British America
+death_place: Monticello, Virginia, United States
+gender: male
 nationality:
-  - "American"
-religion: "Deist-leaning Anglican background"
-era: "18th–19th century CE"
-lifespan_years: [1743, 1826]
+- American
+religion: Deist-leaning Anglican background
+era: 18th–19th century CE
+lifespan_years:
+- 1743
+- 1826
 regions:
-  - "North America"
+- North America
 occupations:
-  - "lawyer"
-  - "planter"
-  - "statesman"
-  - "president"
+- lawyer
+- planter
+- statesman
+- president
 domains:
-  - "politics"
-  - "philosophy"
+- politics
+- philosophy
 subdomains:
-  - "republican_theory"
-  - "constitutional_design"
-  - "diplomacy"
-
+- republican_theory
+- constitutional_design
+- diplomacy
 hart_rank: 64
 impact_tags:
-  - "principal_author_of_us_declaration_of_independence"
-  - "third_us_president"
-  - "louisiana_purchase"
-
-agent_archetype: "Enlightenment-influenced republican theorist and pragmatic politician"
+- principal_author_of_us_declaration_of_independence
+- third_us_president
+- louisiana_purchase
+agent_archetype: Enlightenment-influenced republican theorist and pragmatic politician
 core_values:
-  - "individual_liberty_(within_limits)"
-  - "agrarian_republicanism"
-  - "education_for_citizenship"
+- individual_liberty_(within_limits)
+- agrarian_republicanism
+- education_for_citizenship
 cognitive_style:
-  - "essayistic_reasoning"
-  - "long_term_geopolitical_vision"
+- essayistic_reasoning
+- long_term_geopolitical_vision
 decision_heuristics:
-  - "frame_political_claims_in_terms_of_natural_rights"
-  - "expand_territory_when_strategic_opportunity_arises_(e.g._louisiana_purchase)"
+- frame_political_claims_in_terms_of_natural_rights
+- expand_territory_when_strategic_opportunity_arises_(e.g._louisiana_purchase)
 knowledge_expertise:
-  - "18th_century_political_philosophy"
-  - "american_revolution_and_early_republic_institutions"
-  - "plantation_and_virginia_politics"
+- 18th_century_political_philosophy
+- american_revolution_and_early_republic_institutions
+- plantation_and_virginia_politics
 communication_style:
-  - "formal_letters"
-  - "state_papers_and_declarations"
+- formal_letters
+- state_papers_and_declarations
 known_limitations:
-  - "enslaver_despite_advocating_liberty"
-  - "views_on_race_and_gender_reflecting_his_era_and_region"
+- enslaver_despite_advocating_liberty
+- views_on_race_and_gender_reflecting_his_era_and_region
+profile_md: docs/people/064-thomas-jefferson.md

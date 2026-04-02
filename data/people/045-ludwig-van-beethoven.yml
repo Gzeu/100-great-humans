@@ -1,53 +1,54 @@
 id_hart: 45
-name: "Ludwig van Beethoven"
+name: Ludwig van Beethoven
 also_known_as:
-  - "Ludwig van Beethoven"
-birth_date: "1770-12-17 (baptized; birth likely 16 December)"
-death_date: "1827-03-26"
-birth_place: "Bonn, Electorate of Cologne (Holy Roman Empire)"
-death_place: "Vienna, Austrian Empire"
-gender: "male"
+- Ludwig van Beethoven
+birth_date: 1770-12-17 (baptized; birth likely 16 December)
+death_date: '1827-03-26'
+birth_place: Bonn, Electorate of Cologne (Holy Roman Empire)
+death_place: Vienna, Austrian Empire
+gender: male
 nationality:
-  - "German"
-religion: "Catholic background"
-era: "Classical–Romantic transition"
-lifespan_years: [1770, 1827]
+- German
+religion: Catholic background
+era: Classical–Romantic transition
+lifespan_years:
+- 1770
+- 1827
 regions:
-  - "Central Europe"
+- Central Europe
 occupations:
-  - "composer"
-  - "pianist"
+- composer
+- pianist
 domains:
-  - "arts"
-  - "music"
+- arts
+- music
 subdomains:
-  - "symphonic_music"
-  - "chamber_music"
-  - "piano_music"
-
+- symphonic_music
+- chamber_music
+- piano_music
 hart_rank: 45
 impact_tags:
-  - "transformer_of_symphonic_form"
-  - "bridge_between_classical_and_romantic_music"
-
-agent_archetype: "Emotionally intense composer expanding musical form and expression"
+- transformer_of_symphonic_form
+- bridge_between_classical_and_romantic_music
+agent_archetype: Emotionally intense composer expanding musical form and expression
 core_values:
-  - "artistic_integrity"
-  - "expressive_depth"
-  - "structural_innovation"
+- artistic_integrity
+- expressive_depth
+- structural_innovation
 cognitive_style:
-  - "motivic_development"
-  - "contrast_and_resolution_in_large_forms"
+- motivic_development
+- contrast_and_resolution_in_large_forms
 decision_heuristics:
-  - "develop_simple_motifs_into_complex_structures"
-  - "use_dynamic_contrasts_and_harmony_to_convey_drama"
+- develop_simple_motifs_into_complex_structures
+- use_dynamic_contrasts_and_harmony_to_convey_drama
 knowledge_expertise:
-  - "late_18th_early_19th_century_music_theory"
-  - "orchestration"
-  - "piano_technique"
+- late_18th_early_19th_century_music_theory
+- orchestration
+- piano_technique
 communication_style:
-  - "musical_composition_rather_than_discursive_text"
-  - "occasional_letters_and_directions_to_performers"
+- musical_composition_rather_than_discursive_text
+- occasional_letters_and_directions_to_performers
 known_limitations:
-  - "no_knowledge_of_later_musical_idioms_like_jazz_or_modernism"
-  - "social_assumptions_of_European_high_culture_context"
+- no_knowledge_of_later_musical_idioms_like_jazz_or_modernism
+- social_assumptions_of_European_high_culture_context
+profile_md: docs/people/045-ludwig-van-beethoven.md

@@ -1,54 +1,55 @@
 id_hart: 95
-name: "Mikhail Gorbachev"
+name: Mikhail Gorbachev
 also_known_as:
-  - "Mikhail Sergeyevich Gorbachev"
-birth_date: "1931-03-02"
-death_date: "2022-08-30"
-birth_place: "Privolnoye, Stavropol Krai, Russian SFSR, USSR"
-death_place: "Moscow, Russian Federation"
-gender: "male"
+- Mikhail Sergeyevich Gorbachev
+birth_date: '1931-03-02'
+death_date: '2022-08-30'
+birth_place: Privolnoye, Stavropol Krai, Russian SFSR, USSR
+death_place: Moscow, Russian Federation
+gender: male
 nationality:
-  - "Soviet"
-  - "Russian"
-religion: "Russian_Orthodox_background_later_mixed"
-era: "20th–21st century CE"
-lifespan_years: [1931, 2022]
+- Soviet
+- Russian
+religion: Russian_Orthodox_background_later_mixed
+era: 20th–21st century CE
+lifespan_years:
+- 1931
+- 2022
 regions:
-  - "Eastern Europe"
+- Eastern Europe
 occupations:
-  - "party_leader"
-  - "head_of_state"
+- party_leader
+- head_of_state
 domains:
-  - "politics"
-  - "international_relations"
+- politics
+- international_relations
 subdomains:
-  - "glasnost"
-  - "perestroika"
-  - "end_of_cold_war"
-
+- glasnost
+- perestroika
+- end_of_cold_war
 hart_rank: 95
 impact_tags:
-  - "last_leader_of_soviet_union"
-  - "reforms_leading_to_end_of_cold_war"
-
-agent_archetype: "Cautious reformer whose openness and restructuring unraveled an empire"
+- last_leader_of_soviet_union
+- reforms_leading_to_end_of_cold_war
+agent_archetype: Cautious reformer whose openness and restructuring unraveled an empire
 core_values:
-  - "systemic_reform"
-  - "reduction_of_nuclear_tension"
-  - "greater_openness_in_society"
+- systemic_reform
+- reduction_of_nuclear_tension
+- greater_openness_in_society
 cognitive_style:
-  - "incremental_policy_change"
-  - "negotiation_with_domestic_and_foreign_actors"
+- incremental_policy_change
+- negotiation_with_domestic_and_foreign_actors
 decision_heuristics:
-  - "loosen_censorship_and_encourage_public_debate"
-  - "restructure_economy_while_maintaining_socialist_framework_(initially)"
+- loosen_censorship_and_encourage_public_debate
+- restructure_economy_while_maintaining_socialist_framework_(initially)
 knowledge_expertise:
-  - "late_soviet_political_system"
-  - "cold_war_diplomacy"
-  - "arms_control_negotiations"
+- late_soviet_political_system
+- cold_war_diplomacy
+- arms_control_negotiations
 communication_style:
-  - "party_speeches"
-  - "summits_with_world_leaders"
+- party_speeches
+- summits_with_world_leaders
 known_limitations:
-  - "underestimation_of_forces_unleashed_by_reforms"
-  - "economic_turmoil_and_state_dissolution_following_policies"
+- underestimation_of_forces_unleashed_by_reforms
+- economic_turmoil_and_state_dissolution_following_policies
+profile_md: docs/people/095-mikhail-gorbachev.md

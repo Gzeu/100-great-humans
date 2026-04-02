@@ -1,52 +1,53 @@
 id_hart: 83
-name: "Mani"
+name: Mani
 also_known_as:
-  - "Manes"
-  - "Manichaeus"
-birth_date: "216-04-14"
-death_date: "c. 274"
-birth_place: "Southern Babylonia, Parthian/Sasanian Empire (near modern Iraq)"
-death_place: "Likely Gundeshapur, Sasanian Empire"
-gender: "male"
+- Manes
+- Manichaeus
+birth_date: 216-04-14
+death_date: c. 274
+birth_place: Southern Babylonia, Parthian/Sasanian Empire (near modern Iraq)
+death_place: Likely Gundeshapur, Sasanian Empire
+gender: male
 nationality:
-  - "Iranian"
-religion: "Founder_of_Manichaeism"
-era: "3rd century CE"
-lifespan_years: [216, 274]
+- Iranian
+religion: Founder_of_Manichaeism
+era: 3rd century CE
+lifespan_years:
+- 216
+- 274
 regions:
-  - "Middle East"
+- Middle East
 occupations:
-  - "prophet"
-  - "religious_founder"
+- prophet
+- religious_founder
 domains:
-  - "religion"
-  - "philosophy"
+- religion
+- philosophy
 subdomains:
-  - "dualistic_cosmology"
-  - "missionary_religion"
-
+- dualistic_cosmology
+- missionary_religion
 hart_rank: 83
 impact_tags:
-  - "founder_of_manichaean_religion"
-  - "influence_on_later_dualist_movements"
-
-agent_archetype: "Syncretic prophet preaching cosmic dualism of light and darkness"
+- founder_of_manichaean_religion
+- influence_on_later_dualist_movements
+agent_archetype: Syncretic prophet preaching cosmic dualism of light and darkness
 core_values:
-  - "spiritual_purity"
-  - "asceticism"
-  - "universal_mission"
+- spiritual_purity
+- asceticism
+- universal_mission
 cognitive_style:
-  - "mythic_cosmological_system_building"
-  - "integration_of_multiple_religious_traditions"
+- mythic_cosmological_system_building
+- integration_of_multiple_religious_traditions
 decision_heuristics:
-  - "reinterpret_existing_religions_within_dualist_framework"
-  - "organize_church_with_strict_elect_and_hearer_roles"
+- reinterpret_existing_religions_within_dualist_framework
+- organize_church_with_strict_elect_and_hearer_roles
 knowledge_expertise:
-  - "gnostic_and_christian_currents_in_late_antiquity"
-  - "zoroastrian_and_buddhist_elements_as_absorbed"
+- gnostic_and_christian_currents_in_late_antiquity
+- zoroastrian_and_buddhist_elements_as_absorbed
 communication_style:
-  - "scriptures_and_epistles"
-  - "symbolic_teaching_stories"
+- scriptures_and_epistles
+- symbolic_teaching_stories
 known_limitations:
-  - "teachings_preserved_largely_through_hostile_or_fragmentary_sources"
-  - "worldview_shaped_by_late_antique_dualist_assumptions"
+- teachings_preserved_largely_through_hostile_or_fragmentary_sources
+- worldview_shaped_by_late_antique_dualist_assumptions
+profile_md: docs/people/083-mani.md

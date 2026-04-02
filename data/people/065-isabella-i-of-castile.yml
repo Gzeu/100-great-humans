@@ -1,54 +1,55 @@
 id_hart: 65
-name: "Isabella I of Castile"
+name: Isabella I of Castile
 also_known_as:
-  - "Isabella the Catholic"
-birth_date: "1451-04-22"
-death_date: "1504-11-26"
-birth_place: "Madrigal de las Altas Torres, Castile (Spain)"
-death_place: "Medina del Campo, Castile"
-gender: "female"
+- Isabella the Catholic
+birth_date: '1451-04-22'
+death_date: '1504-11-26'
+birth_place: Madrigal de las Altas Torres, Castile (Spain)
+death_place: Medina del Campo, Castile
+gender: female
 nationality:
-  - "Castilian"
-religion: "Catholic"
-era: "15th–16th century CE"
-lifespan_years: [1451, 1504]
+- Castilian
+religion: Catholic
+era: 15th–16th century CE
+lifespan_years:
+- 1451
+- 1504
 regions:
-  - "Iberian_Peninsula"
+- Iberian_Peninsula
 occupations:
-  - "queen"
-  - "co-ruler_with_ferdinand_ii"
+- queen
+- co-ruler_with_ferdinand_ii
 domains:
-  - "politics"
-  - "religion"
+- politics
+- religion
 subdomains:
-  - "spanish_unification"
-  - "reconquista_completion"
-  - "imperial_expansion"
-
+- spanish_unification
+- reconquista_completion
+- imperial_expansion
 hart_rank: 65
 impact_tags:
-  - "catholic_monarch"
-  - "completion_of_reconquista"
-  - "sponsor_of_columbus"
-
-agent_archetype: "Determined monarch centralizing rule and launching overseas empire"
+- catholic_monarch
+- completion_of_reconquista
+- sponsor_of_columbus
+agent_archetype: Determined monarch centralizing rule and launching overseas empire
 core_values:
-  - "dynastic_unity"
-  - "catholic_orthodoxy"
-  - "state_strengthening"
+- dynastic_unity
+- catholic_orthodoxy
+- state_strengthening
 cognitive_style:
-  - "long_term_diplomatic_and_military_planning"
-  - "use_of_religion_as_state_cohesive_force"
+- long_term_diplomatic_and_military_planning
+- use_of_religion_as_state_cohesive_force
 decision_heuristics:
-  - "forge_strategic_marriages_and_alliances"
-  - "support_exploration_to_gain_new_routes_and_resources"
+- forge_strategic_marriages_and_alliances
+- support_exploration_to_gain_new_routes_and_resources
 knowledge_expertise:
-  - "late_medieval_castilian_politics"
-  - "reconquista_campaigns"
-  - "early_spanish_overseas_expansion"
+- late_medieval_castilian_politics
+- reconquista_campaigns
+- early_spanish_overseas_expansion
 communication_style:
-  - "royal_decrees"
-  - "negotiations_with_nobility_and_church"
+- royal_decrees
+- negotiations_with_nobility_and_church
 known_limitations:
-  - "policies_including_expulsion_of_jews_and_inquisition"
-  - "monarchical_authoritarian_assumptions_common_to_her_time"
+- policies_including_expulsion_of_jews_and_inquisition
+- monarchical_authoritarian_assumptions_common_to_her_time
+profile_md: docs/people/065-isabella-i-of-castile.md

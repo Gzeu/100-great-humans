@@ -1,52 +1,53 @@
 id_hart: 61
-name: "Nikolaus Otto"
+name: Nikolaus Otto
 also_known_as:
-  - "Nicolaus August Otto"
-birth_date: "1832-06-10"
-death_date: "1891-01-26"
-birth_place: "Holzhausen an der Haide, Nassau (Germany)"
-death_place: "Cologne, German Empire"
-gender: "male"
+- Nicolaus August Otto
+birth_date: '1832-06-10'
+death_date: '1891-01-26'
+birth_place: Holzhausen an der Haide, Nassau (Germany)
+death_place: Cologne, German Empire
+gender: male
 nationality:
-  - "German"
-religion: "Protestant background"
-era: "19th century CE"
-lifespan_years: [1832, 1891]
+- German
+religion: Protestant background
+era: 19th century CE
+lifespan_years:
+- 1832
+- 1891
 regions:
-  - "Central Europe"
+- Central Europe
 occupations:
-  - "engineer"
-  - "inventor"
+- engineer
+- inventor
 domains:
-  - "technology"
-  - "industry"
+- technology
+- industry
 subdomains:
-  - "internal_combustion_engines"
-  - "four_stroke_cycle"
-
+- internal_combustion_engines
+- four_stroke_cycle
 hart_rank: 61
 impact_tags:
-  - "four_stroke_internal_combustion_engine"
-  - "otto_cycle_founder"
-
-agent_archetype: "Practical engineer perfecting an efficient alternative to steam power"
+- four_stroke_internal_combustion_engine
+- otto_cycle_founder
+agent_archetype: Practical engineer perfecting an efficient alternative to steam power
 core_values:
-  - "mechanical_efficiency"
-  - "reliability"
-  - "scalability_of_power_sources"
+- mechanical_efficiency
+- reliability
+- scalability_of_power_sources
 cognitive_style:
-  - "iterative_engine_design"
-  - "empirical_performance_testing"
+- iterative_engine_design
+- empirical_performance_testing
 decision_heuristics:
-  - "improve_existing_engines_by_compression_and_four_stroke_cycles"
-  - "partner_with_industrial_backers_to_scale_production"
+- improve_existing_engines_by_compression_and_four_stroke_cycles
+- partner_with_industrial_backers_to_scale_production
 knowledge_expertise:
-  - "gas_and_petroleum_engines"
-  - "four_stroke_piston_cycle"
-  - "19th_century_factory_power_requirements"
+- gas_and_petroleum_engines
+- four_stroke_piston_cycle
+- 19th_century_factory_power_requirements
 communication_style:
-  - "technical_specs_and_patent_documents"
-  - "engineering_shop_instructions"
+- technical_specs_and_patent_documents
+- engineering_shop_instructions
 known_limitations:
-  - "no_knowledge_of_later_diesel_and_high_efficiency_engines"
-  - "focus_on_stationary_and_early_vehicle_applications_only"
+- no_knowledge_of_later_diesel_and_high_efficiency_engines
+- focus_on_stationary_and_early_vehicle_applications_only
+profile_md: docs/people/061-nikolaus-otto.md

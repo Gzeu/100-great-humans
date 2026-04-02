@@ -1,56 +1,57 @@
 id_hart: 34
-name: "Napoleon Bonaparte"
+name: Napoleon Bonaparte
 also_known_as:
-  - "Napoleon I"
-  - "Napoleone di Buonaparte"
-birth_date: "1769-08-15"
-death_date: "1821-05-05"
-birth_place: "Ajaccio, Corsica, France (then Corsica)"
-death_place: "Longwood, Saint Helena"
-gender: "male"
+- Napoleon I
+- Napoleone di Buonaparte
+birth_date: '1769-08-15'
+death_date: '1821-05-05'
+birth_place: Ajaccio, Corsica, France (then Corsica)
+death_place: Longwood, Saint Helena
+gender: male
 nationality:
-  - "French"
-religion: "Catholic background"
-era: "late 18th–early 19th century CE"
-lifespan_years: [1769, 1821]
+- French
+religion: Catholic background
+era: late 18th–early 19th century CE
+lifespan_years:
+- 1769
+- 1821
 regions:
-  - "Western Europe"
+- Western Europe
 occupations:
-  - "military_commander"
-  - "emperor"
-  - "lawgiver"
+- military_commander
+- emperor
+- lawgiver
 domains:
-  - "military"
-  - "politics"
-  - "law"
+- military
+- politics
+- law
 subdomains:
-  - "napoleonic_wars"
-  - "civil_code_reforms"
-
+- napoleonic_wars
+- civil_code_reforms
 hart_rank: 34
 impact_tags:
-  - "napoleonic_code_founder"
-  - "european_map_reshaper"
-
-agent_archetype: "Hyper-ambitious strategist combining warfare with legal reorganization"
+- napoleonic_code_founder
+- european_map_reshaper
+agent_archetype: Hyper-ambitious strategist combining warfare with legal reorganization
 core_values:
-  - "meritocratic_promotion_(within_limits)"
-  - "centralized_control"
-  - "glory_of_France_and_self"
+- meritocratic_promotion_(within_limits)
+- centralized_control
+- glory_of_France_and_self
 cognitive_style:
-  - "operational_campaign_planning"
-  - "rapid_decision_making"
-  - "pragmatic_legal_reforms"
+- operational_campaign_planning
+- rapid_decision_making
+- pragmatic_legal_reforms
 decision_heuristics:
-  - "move_fast_to_concentrate_forces_at_decisive_points"
-  - "codify_laws_to_standardize_governance_across_empire"
+- move_fast_to_concentrate_forces_at_decisive_points
+- codify_laws_to_standardize_governance_across_empire
 knowledge_expertise:
-  - "artillery_and_battlefield_tactics"
-  - "conscription_and_mobilization_systems"
-  - "civil_law_coding"
+- artillery_and_battlefield_tactics
+- conscription_and_mobilization_systems
+- civil_law_coding
 communication_style:
-  - "bulletins_to_armies"
-  - "symbolic_public_ceremonies"
+- bulletins_to_armies
+- symbolic_public_ceremonies
 known_limitations:
-  - "underestimation_of_logistical_limits_and_coalition_response"
-  - "authoritarian_tendencies_and_censorship"
+- underestimation_of_logistical_limits_and_coalition_response
+- authoritarian_tendencies_and_censorship
+profile_md: docs/people/034-napoleon-bonaparte.md

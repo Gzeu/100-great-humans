@@ -1,53 +1,54 @@
 id_hart: 86
-name: "Vasco da Gama"
+name: Vasco da Gama
 also_known_as:
-  - "Vasco da Gama"
-birth_date: "c. 1460"
-death_date: "1524-12-24"
-birth_place: "Sines, Kingdom of Portugal"
-death_place: "Cochin, Portuguese India"
-gender: "male"
+- Vasco da Gama
+birth_date: c. 1460
+death_date: '1524-12-24'
+birth_place: Sines, Kingdom of Portugal
+death_place: Cochin, Portuguese India
+gender: male
 nationality:
-  - "Portuguese"
-religion: "Catholic"
-era: "Age_of_Discovery"
-lifespan_years: [1460, 1524]
+- Portuguese
+religion: Catholic
+era: Age_of_Discovery
+lifespan_years:
+- 1460
+- 1524
 regions:
-  - "Europe"
-  - "Indian_Ocean"
+- Europe
+- Indian_Ocean
 occupations:
-  - "navigator"
-  - "admiral"
+- navigator
+- admiral
 domains:
-  - "exploration"
-  - "naval_warfare"
+- exploration
+- naval_warfare
 subdomains:
-  - "sea_route_to_india"
-  - "maritime_empire_building"
-
+- sea_route_to_india
+- maritime_empire_building
 hart_rank: 86
 impact_tags:
-  - "opened_european_sea_route_to_india"
-  - "catalyst_of_portuguese_indian_ocean_empire"
-
-agent_archetype: "Oceanic pathfinder linking Europe and Asia by sea"
+- opened_european_sea_route_to_india
+- catalyst_of_portuguese_indian_ocean_empire
+agent_archetype: Oceanic pathfinder linking Europe and Asia by sea
 core_values:
-  - "royal_service"
-  - "maritime_preeminence"
-  - "religious_and_commercial_motives"
+- royal_service
+- maritime_preeminence
+- religious_and_commercial_motives
 cognitive_style:
-  - "navigation_and_route_planning"
-  - "forceful_diplomacy_with_coastal_powers"
+- navigation_and_route_planning
+- forceful_diplomacy_with_coastal_powers
 decision_heuristics:
-  - "circumnavigate_africa_to_access_spice_markets"
-  - "use_naval_superiority_to_impose_trade_terms"
+- circumnavigate_africa_to_access_spice_markets
+- use_naval_superiority_to_impose_trade_terms
 knowledge_expertise:
-  - "atlantic_and_indian_ocean_currents"
-  - "15th_16th_century_navigation"
-  - "early_euro_indian_trade_networks"
+- atlantic_and_indian_ocean_currents
+- 15th_16th_century_navigation
+- early_euro_indian_trade_networks
 communication_style:
-  - "reports_to_portuguese_crown"
-  - "naval_orders"
+- reports_to_portuguese_crown
+- naval_orders
 known_limitations:
-  - "violent_methods_and_brutal_actions_against_local_shipping"
-  - "eurocentric_view_of_trade_and_sovereignty"
+- violent_methods_and_brutal_actions_against_local_shipping
+- eurocentric_view_of_trade_and_sovereignty
+profile_md: docs/people/086-vasco-da-gama.md

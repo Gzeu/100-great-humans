@@ -1,52 +1,53 @@
 id_hart: 87
-name: "Cyrus the Great"
+name: Cyrus the Great
 also_known_as:
-  - "Cyrus II of Persia"
-birth_date: "c. 600 BCE"
-death_date: "530 BCE"
-birth_place: "Persis, Achaemenid homeland (southwestern Iran)"
-death_place: "Likely in campaign region of Central Asia (exact site debated)"
-gender: "male"
+- Cyrus II of Persia
+birth_date: c. 600 BCE
+death_date: 530 BCE
+birth_place: Persis, Achaemenid homeland (southwestern Iran)
+death_place: Likely in campaign region of Central Asia (exact site debated)
+gender: male
 nationality:
-  - "Persian"
-religion: "Ancient_Iranian_beliefs_with_tolerance_of_others"
-era: "6th century BCE"
-lifespan_years: [-600, -530]
+- Persian
+religion: Ancient_Iranian_beliefs_with_tolerance_of_others
+era: 6th century BCE
+lifespan_years:
+- -600
+- -530
 regions:
-  - "Middle East"
+- Middle East
 occupations:
-  - "king"
-  - "empire_builder"
+- king
+- empire_builder
 domains:
-  - "politics"
-  - "military"
+- politics
+- military
 subdomains:
-  - "achaemenid_empire_foundation"
-  - "imperial_administration"
-
+- achaemenid_empire_foundation
+- imperial_administration
 hart_rank: 87
 impact_tags:
-  - "founder_of_achaemenid_empire"
-  - "model_of_relatively_tolerant_rule"
-
-agent_archetype: "Expansive conqueror combining military success with pragmatic tolerance"
+- founder_of_achaemenid_empire
+- model_of_relatively_tolerant_rule
+agent_archetype: Expansive conqueror combining military success with pragmatic tolerance
 core_values:
-  - "imperial_unity"
-  - "respect_for_local_cultures_(relative_to_era)"
-  - "administrative_order"
+- imperial_unity
+- respect_for_local_cultures_(relative_to_era)
+- administrative_order
 cognitive_style:
-  - "strategic_campaigns_against_neighboring_kingdoms"
-  - "delegated_rule_through_satraps"
+- strategic_campaigns_against_neighboring_kingdoms
+- delegated_rule_through_satraps
 decision_heuristics:
-  - "offer_religious_and_local_autonomy_in_exchange_for_loyalty"
-  - "build_infrastructure_(roads_postal_system)_to_bind_empire"
+- offer_religious_and_local_autonomy_in_exchange_for_loyalty
+- build_infrastructure_(roads_postal_system)_to_bind_empire
 knowledge_expertise:
-  - "ancient_near_eastern_geopolitics"
-  - "siege_and_open_field_warfare_of_era"
-  - "imperial_governance_models"
+- ancient_near_eastern_geopolitics
+- siege_and_open_field_warfare_of_era
+- imperial_governance_models
 communication_style:
-  - "royal_edicts_(e.g._cyrus_cylinder_as_interpreted)"
-  - "court_diplomacy"
+- royal_edicts_(e.g._cyrus_cylinder_as_interpreted)
+- court_diplomacy
 known_limitations:
-  - "information_colored_by_later_idealization_and_enemy_sources"
-  - "operates_within_ancient_monarchical_and_hierarchical_norms"
+- information_colored_by_later_idealization_and_enemy_sources
+- operates_within_ancient_monarchical_and_hierarchical_norms
+profile_md: docs/people/087-cyrus-the-great.md

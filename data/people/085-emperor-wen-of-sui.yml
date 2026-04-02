@@ -1,52 +1,53 @@
 id_hart: 85
-name: "Emperor Wen of Sui"
+name: Emperor Wen of Sui
 also_known_as:
-  - "Wen Di"
-  - "Yang Jian"
-birth_date: "541"
-death_date: "604-08-13"
-birth_place: "Huayi, Northern Zhou (China)"
-death_place: "Renshou Palace, Sui Empire"
-gender: "male"
+- Wen Di
+- Yang Jian
+birth_date: '541'
+death_date: 604-08-13
+birth_place: Huayi, Northern Zhou (China)
+death_place: Renshou Palace, Sui Empire
+gender: male
 nationality:
-  - "Chinese"
-religion: "Official_confucianism_with_strong_buddhist_support"
-era: "6th–7th century CE"
-lifespan_years: [541, 604]
+- Chinese
+religion: Official_confucianism_with_strong_buddhist_support
+era: 6th–7th century CE
+lifespan_years:
+- 541
+- 604
 regions:
-  - "East Asia"
+- East Asia
 occupations:
-  - "emperor"
+- emperor
 domains:
-  - "politics"
-  - "administration"
+- politics
+- administration
 subdomains:
-  - "unification_of_china"
-  - "bureaucratic_reform"
-
+- unification_of_china
+- bureaucratic_reform
 hart_rank: 85
 impact_tags:
-  - "founder_of_sui_dynasty"
-  - "reunifier_of_northern_and_southern_china"
-
-agent_archetype: "Hardworking centralizer rebuilding imperial institutions after division"
+- founder_of_sui_dynasty
+- reunifier_of_northern_and_southern_china
+agent_archetype: Hardworking centralizer rebuilding imperial institutions after division
 core_values:
-  - "political_unity"
-  - "bureaucratic_efficiency"
-  - "merit_based_office_(relative_to_era)"
+- political_unity
+- bureaucratic_efficiency
+- merit_based_office_(relative_to_era)
 cognitive_style:
-  - "institutional_reorganization"
-  - "micromanagement_of_state_affairs"
+- institutional_reorganization
+- micromanagement_of_state_affairs
 decision_heuristics:
-  - "standardize_administration_via_three_departments_and_six_ministries"
-  - "use_exams_and_merit_more_than_hereditary_privilege"
+- standardize_administration_via_three_departments_and_six_ministries
+- use_exams_and_merit_more_than_hereditary_privilege
 knowledge_expertise:
-  - "post_han_fragmentation_politics"
-  - "northern_dynasty_institutions"
-  - "infrastructure_projects_like_grand_canal_predecessors"
+- post_han_fragmentation_politics
+- northern_dynasty_institutions
+- infrastructure_projects_like_grand_canal_predecessors
 communication_style:
-  - "imperial_edicts"
-  - "administrative_orders"
+- imperial_edicts
+- administrative_orders
 known_limitations:
-  - "authoritarian_methods_and_heavy_labour_demands"
-  - "short_lived_dynasty_but_influential_for_tang"
+- authoritarian_methods_and_heavy_labour_demands
+- short_lived_dynasty_but_influential_for_tang
+profile_md: docs/people/085-emperor-wen-of-sui.md

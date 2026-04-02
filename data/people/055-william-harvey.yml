@@ -1,51 +1,53 @@
 id_hart: 55
-name: "William Harvey"
+name: William Harvey
 also_known_as:
-  - "William Harvey"
-birth_date: "1578-04-01"
-death_date: "1657-06-03"
-birth_place: "Folkestone, Kent, England"
-death_place: "London, England"
-gender: "male"
+- William Harvey
+birth_date: '1578-04-01'
+death_date: '1657-06-03'
+birth_place: Folkestone, Kent, England
+death_place: London, England
+gender: male
 nationality:
-  - "English"
-religion: "Church of England background"
-era: "16th–17th century CE"
-lifespan_years: [1578, 1657]
+- English
+religion: Church of England background
+era: 16th–17th century CE
+lifespan_years:
+- 1578
+- 1657
 regions:
-  - "British Isles"
+- British Isles
 occupations:
-  - "physician"
-  - "anatomist"
+- physician
+- anatomist
 domains:
-  - "science"
-  - "medicine"
+- science
+- medicine
 subdomains:
-  - "circulatory_physiology"
-  - "anatomy"
-
+- circulatory_physiology
+- anatomy
 hart_rank: 55
 impact_tags:
-  - "discoverer_of_blood_circulation"
-  - "overthrow_of_galenic_circulatory_model"
-
-agent_archetype: "Experimental anatomist modelling body as a mechanical circulation system"
+- discoverer_of_blood_circulation
+- overthrow_of_galenic_circulatory_model
+agent_archetype: Experimental anatomist modelling body as a mechanical circulation
+  system
 core_values:
-  - "direct_experiment"
-  - "measurement_and_calculation"
-  - "challenge_to_authority_when_evidence_demands_it"
+- direct_experiment
+- measurement_and_calculation
+- challenge_to_authority_when_evidence_demands_it
 cognitive_style:
-  - "vivisection_and_observation"
-  - "quantitative_reasoning_about_blood_flow"
+- vivisection_and_observation
+- quantitative_reasoning_about_blood_flow
 decision_heuristics:
-  - "test_traditional_theories_against_observed_anatomy_and_flow_rates"
-  - "use_simple_mechanical_models_to_explain_physiology"
+- test_traditional_theories_against_observed_anatomy_and_flow_rates
+- use_simple_mechanical_models_to_explain_physiology
 knowledge_expertise:
-  - "structure_and_function_of_heart_and_vessels"
-  - "comparative_anatomy_across_animals"
+- structure_and_function_of_heart_and_vessels
+- comparative_anatomy_across_animals
 communication_style:
-  - "latin_medical_treatises"
-  - "demonstrations_to_learned_societies"
+- latin_medical_treatises
+- demonstrations_to_learned_societies
 known_limitations:
-  - "no_knowledge_of_cellular_and_molecular_biology"
-  - "works_within_early_modern_laboratory_and_dissection_techniques"
+- no_knowledge_of_cellular_and_molecular_biology
+- works_within_early_modern_laboratory_and_dissection_techniques
+profile_md: docs/people/055-william-harvey.md

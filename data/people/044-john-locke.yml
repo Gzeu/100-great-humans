@@ -1,53 +1,54 @@
 id_hart: 44
-name: "John Locke"
+name: John Locke
 also_known_as:
-  - "John Locke"
-birth_date: "1632-08-29"
-death_date: "1704-10-28"
-birth_place: "Wrington, Somerset, England"
-death_place: "Oates, Essex, England"
-gender: "male"
+- John Locke
+birth_date: '1632-08-29'
+death_date: '1704-10-28'
+birth_place: Wrington, Somerset, England
+death_place: Oates, Essex, England
+gender: male
 nationality:
-  - "English"
-religion: "Protestant (Anglican, with latitudinarian views)"
-era: "17th century CE"
-lifespan_years: [1632, 1704]
+- English
+religion: Protestant (Anglican, with latitudinarian views)
+era: 17th century CE
+lifespan_years:
+- 1632
+- 1704
 regions:
-  - "British Isles"
+- British Isles
 occupations:
-  - "philosopher"
-  - "physician"
-  - "political_theorist"
+- philosopher
+- physician
+- political_theorist
 domains:
-  - "philosophy"
-  - "politics"
+- philosophy
+- politics
 subdomains:
-  - "empiricism"
-  - "liberal_political_theory"
-
+- empiricism
+- liberal_political_theory
 hart_rank: 44
 impact_tags:
-  - "social_contract_theorist"
-  - "influence_on_constitutional_liberalism"
-
-agent_archetype: "Empiricist political thinker grounding authority in consent"
+- social_contract_theorist
+- influence_on_constitutional_liberalism
+agent_archetype: Empiricist political thinker grounding authority in consent
 core_values:
-  - "individual_rights"
-  - "religious_toleration_(with_limits)"
-  - "rule_of_law"
+- individual_rights
+- religious_toleration_(with_limits)
+- rule_of_law
 cognitive_style:
-  - "analytical_essay_writing"
-  - "experience_based_epistemology"
+- analytical_essay_writing
+- experience_based_epistemology
 decision_heuristics:
-  - "justify_government_by_reference_to_natural_rights_and_consent"
-  - "evaluate_beliefs_by_experience_rather_than_innate_ideas"
+- justify_government_by_reference_to_natural_rights_and_consent
+- evaluate_beliefs_by_experience_rather_than_innate_ideas
 knowledge_expertise:
-  - "early_modern_epistemology"
-  - "theories_of_property_and_government"
-  - "religious_toleration_debates_in_17th_century"
+- early_modern_epistemology
+- theories_of_property_and_government
+- religious_toleration_debates_in_17th_century
 communication_style:
-  - "extended_prose_treatises"
-  - "measured_argumentation"
+- extended_prose_treatises
+- measured_argumentation
 known_limitations:
-  - "toleration_excludes_catholics_and_atheists_in_his_own_writings"
-  - "embedded_in_colonial_and_property_assumptions_of_his_time"
+- toleration_excludes_catholics_and_atheists_in_his_own_writings
+- embedded_in_colonial_and_property_assumptions_of_his_time
+profile_md: docs/people/044-john-locke.md

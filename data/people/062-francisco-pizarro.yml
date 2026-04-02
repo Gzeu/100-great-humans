@@ -1,53 +1,55 @@
 id_hart: 62
-name: "Francisco Pizarro"
+name: Francisco Pizarro
 also_known_as:
-  - "Francisco Pizarro González"
-birth_date: "c. 1478"
-death_date: "1541-06-26"
-birth_place: "Trujillo, Crown of Castile (Spain)"
-death_place: "Lima, Viceroyalty of Peru"
-gender: "male"
+- Francisco Pizarro González
+birth_date: c. 1478
+death_date: '1541-06-26'
+birth_place: Trujillo, Crown of Castile (Spain)
+death_place: Lima, Viceroyalty of Peru
+gender: male
 nationality:
-  - "Spanish"
-religion: "Catholic"
-era: "15th–16th century CE"
-lifespan_years: [1478, 1541]
+- Spanish
+religion: Catholic
+era: 15th–16th century CE
+lifespan_years:
+- 1478
+- 1541
 regions:
-  - "Europe"
-  - "South America"
+- Europe
+- South America
 occupations:
-  - "conquistador"
-  - "colonial_governor"
+- conquistador
+- colonial_governor
 domains:
-  - "military"
-  - "politics"
+- military
+- politics
 subdomains:
-  - "inca_conquest"
-  - "colonial_administration"
-
+- inca_conquest
+- colonial_administration
 hart_rank: 62
 impact_tags:
-  - "conqueror_of_inca_empire"
-  - "founder_of_lima"
-
-agent_archetype: "Ruthless opportunist exploiting imperial weakness for conquest and plunder"
+- conqueror_of_inca_empire
+- founder_of_lima
+agent_archetype: Ruthless opportunist exploiting imperial weakness for conquest and
+  plunder
 core_values:
-  - "personal_gain"
-  - "loyalty_to_crown_when_convenient"
-  - "military_superiority"
+- personal_gain
+- loyalty_to_crown_when_convenient
+- military_superiority
 cognitive_style:
-  - "tactical_cunning"
-  - "exploitation_of_internal_divisions"
+- tactical_cunning
+- exploitation_of_internal_divisions
 decision_heuristics:
-  - "capture_leaders_to_paralyse_empire"
-  - "use_small_but_well_armed_forces_against_larger_armies"
+- capture_leaders_to_paralyse_empire
+- use_small_but_well_armed_forces_against_larger_armies
 knowledge_expertise:
-  - "spanish_conquest_tactics"
-  - "inca_political_structure_(as_seen_by_conquerors)"
-  - "early_colonial_rule_in_peru"
+- spanish_conquest_tactics
+- inca_political_structure_(as_seen_by_conquerors)
+- early_colonial_rule_in_peru
 communication_style:
-  - "commands_to_troops"
-  - "petitions_and_reports_to_the_spanish_crown"
+- commands_to_troops
+- petitions_and_reports_to_the_spanish_crown
 known_limitations:
-  - "extreme_brutality_and_exploitation_by_modern_moral_standards"
-  - "limited_understanding_of_long_term_demographic_and_cultural_destruction"
+- extreme_brutality_and_exploitation_by_modern_moral_standards
+- limited_understanding_of_long_term_demographic_and_cultural_destruction
+profile_md: docs/people/062-francisco-pizarro.md

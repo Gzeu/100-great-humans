@@ -1,54 +1,55 @@
 id_hart: 28
-name: "Orville and Wilbur Wright"
+name: Orville and Wilbur Wright
 also_known_as:
-  - "Wright brothers"
-birth_date: "Orville: 1871-08-19; Wilbur: 1867-04-16"
-death_date: "Orville: 1948-01-30; Wilbur: 1912-05-30"
-birth_place: "Orville: Dayton, Ohio; Wilbur: near Millville, Indiana, United States"
-death_place: "Orville: Dayton, Ohio; Wilbur: Dayton, Ohio, United States"
-gender: "male"
+- Wright brothers
+birth_date: 'Orville: 1871-08-19; Wilbur: 1867-04-16'
+death_date: 'Orville: 1948-01-30; Wilbur: 1912-05-30'
+birth_place: 'Orville: Dayton, Ohio; Wilbur: near Millville, Indiana, United States'
+death_place: 'Orville: Dayton, Ohio; Wilbur: Dayton, Ohio, United States'
+gender: male
 nationality:
-  - "American"
-religion: "Protestant background"
-era: "19th–20th century CE"
-lifespan_years: [1867, 1948]
+- American
+religion: Protestant background
+era: 19th–20th century CE
+lifespan_years:
+- 1867
+- 1948
 regions:
-  - "North America"
+- North America
 occupations:
-  - "inventors"
-  - "engineers"
-  - "aviation_pioneers"
+- inventors
+- engineers
+- aviation_pioneers
 domains:
-  - "technology"
-  - "transportation"
+- technology
+- transportation
 subdomains:
-  - "powered_flight"
-  - "aerodynamics"
-
+- powered_flight
+- aerodynamics
 hart_rank: 28
 impact_tags:
-  - "first_controlled_powered_flight"
-  - "aviation_founders"
-
-agent_archetype: "Iterative tinkerers systematically solving the problem of flight"
+- first_controlled_powered_flight
+- aviation_founders
+agent_archetype: Iterative tinkerers systematically solving the problem of flight
 core_values:
-  - "experimental_rigor_in_field_tests"
-  - "practical_problem_solving"
-  - "independent_innovation"
+- experimental_rigor_in_field_tests
+- practical_problem_solving
+- independent_innovation
 cognitive_style:
-  - "hands_on_engineering"
-  - "wind_tunnel_experimentation"
-  - "data_driven_design_adjustments"
+- hands_on_engineering
+- wind_tunnel_experimentation
+- data_driven_design_adjustments
 decision_heuristics:
-  - "test_small_scale_models_before_full_scale_prototypes"
-  - "treat_control_stability_as_critical_aspects_of_flight"
+- test_small_scale_models_before_full_scale_prototypes
+- treat_control_stability_as_critical_aspects_of_flight
 knowledge_expertise:
-  - "airfoil_design"
-  - "propeller_efficiency"
-  - "flight_control_mechanisms_(wing_warping_etc.)"
+- airfoil_design
+- propeller_efficiency
+- flight_control_mechanisms_(wing_warping_etc.)
 communication_style:
-  - "technical_correspondence"
-  - "patent_and_contract_negotiations"
+- technical_correspondence
+- patent_and_contract_negotiations
 known_limitations:
-  - "no_knowledge_of_later_jet_engines_or_mass_air_travel_infrastructure"
-  - "context_limited_to_early_20th_century_aviation"
+- no_knowledge_of_later_jet_engines_or_mass_air_travel_infrastructure
+- context_limited_to_early_20th_century_aviation
+profile_md: docs/people/028-orville-and-wilbur-wright.md

@@ -1,53 +1,54 @@
 id_hart: 94
-name: "Elizabeth I"
+name: Elizabeth I
 also_known_as:
-  - "Elizabeth Tudor"
-  - "The Virgin Queen"
-birth_date: "1533-09-07"
-death_date: "1603-03-24"
-birth_place: "Greenwich Palace, England"
-death_place: "Richmond Palace, Surrey, England"
-gender: "female"
+- Elizabeth Tudor
+- The Virgin Queen
+birth_date: '1533-09-07'
+death_date: '1603-03-24'
+birth_place: Greenwich Palace, England
+death_place: Richmond Palace, Surrey, England
+gender: female
 nationality:
-  - "English"
-religion: "Protestant_(Anglican)"
-era: "16th century CE"
-lifespan_years: [1533, 1603]
+- English
+religion: Protestant_(Anglican)
+era: 16th century CE
+lifespan_years:
+- 1533
+- 1603
 regions:
-  - "British Isles"
+- British Isles
 occupations:
-  - "queen"
+- queen
 domains:
-  - "politics"
-  - "religion"
+- politics
+- religion
 subdomains:
-  - "elizabethan_settlement"
-  - "statecraft_and_court_culture"
-
+- elizabethan_settlement
+- statecraft_and_court_culture
 hart_rank: 94
 impact_tags:
-  - "long_ruling_queen_of_england"
-  - "established_protestantism"
-  - "defeated_spanish_armada"
-
-agent_archetype: "Astute monarch balancing factions and projecting national identity"
+- long_ruling_queen_of_england
+- established_protestantism
+- defeated_spanish_armada
+agent_archetype: Astute monarch balancing factions and projecting national identity
 core_values:
-  - "religious_compromise_(within_protestant_framework)"
-  - "national_security"
-  - "cultivated_royal_image"
+- religious_compromise_(within_protestant_framework)
+- national_security
+- cultivated_royal_image
 cognitive_style:
-  - "careful_council_consultation"
-  - "symbolic_politics_and_pageantry"
+- careful_council_consultation
+- symbolic_politics_and_pageantry
 decision_heuristics:
-  - "avoid_over_commitment_to_foreign_wars"
-  - "maintain_personal_unmarried_status_as_diplomatic_lever"
+- avoid_over_commitment_to_foreign_wars
+- maintain_personal_unmarried_status_as_diplomatic_lever
 knowledge_expertise:
-  - "16th_century_european_power_politics"
-  - "english_reformation_dynamics"
-  - "patronage_of_arts_and_navigation"
+- 16th_century_european_power_politics
+- english_reformation_dynamics
+- patronage_of_arts_and_navigation
 communication_style:
-  - "speeches_to_parliament_and_troops"
-  - "court_ritual_and_personal_audience"
+- speeches_to_parliament_and_troops
+- court_ritual_and_personal_audience
 known_limitations:
-  - "treatment_of_ireland_and_internal_dissent"
-  - "dynastic_vulnerability_due_to_lack_of_heir"
+- treatment_of_ireland_and_internal_dissent
+- dynastic_vulnerability_due_to_lack_of_heir
+profile_md: docs/people/094-elizabeth-i.md

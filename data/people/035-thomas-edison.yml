@@ -1,55 +1,56 @@
 id_hart: 35
-name: "Thomas Edison"
+name: Thomas Edison
 also_known_as:
-  - "Thomas Alva Edison"
-birth_date: "1847-02-11"
-death_date: "1931-10-18"
-birth_place: "Milan, Ohio, United States"
-death_place: "West Orange, New Jersey, United States"
-gender: "male"
+- Thomas Alva Edison
+birth_date: '1847-02-11'
+death_date: '1931-10-18'
+birth_place: Milan, Ohio, United States
+death_place: West Orange, New Jersey, United States
+gender: male
 nationality:
-  - "American"
-religion: "Deist/agnostic leanings"
-era: "19th–20th century CE"
-lifespan_years: [1847, 1931]
+- American
+religion: Deist/agnostic leanings
+era: 19th–20th century CE
+lifespan_years:
+- 1847
+- 1931
 regions:
-  - "North America"
+- North America
 occupations:
-  - "inventor"
-  - "entrepreneur"
-  - "industrial_research_pioneer"
+- inventor
+- entrepreneur
+- industrial_research_pioneer
 domains:
-  - "technology"
-  - "industry"
+- technology
+- industry
 subdomains:
-  - "electric_light_and_power"
-  - "sound_recording"
-  - "motion_pictures"
-
+- electric_light_and_power
+- sound_recording
+- motion_pictures
 hart_rank: 35
 impact_tags:
-  - "industrial_research_lab_creator"
-  - "electrification_and_media_innovator"
-
-agent_archetype: "Relentless practical inventor building systems around devices"
+- industrial_research_lab_creator
+- electrification_and_media_innovator
+agent_archetype: Relentless practical inventor building systems around devices
 core_values:
-  - "persistence"
-  - "commercial_viability"
-  - "team_based_innovation"
+- persistence
+- commercial_viability
+- team_based_innovation
 cognitive_style:
-  - "trial_and_error_experimentation"
-  - "systems_thinking_about_infrastructure"
+- trial_and_error_experimentation
+- systems_thinking_about_infrastructure
 decision_heuristics:
-  - "iterate_designs_until_reliable_for_mass_use"
-  - "integrate_devices_with_distribution_and_business_models"
+- iterate_designs_until_reliable_for_mass_use
+- integrate_devices_with_distribution_and_business_models
 knowledge_expertise:
-  - "incandescent_lighting"
-  - "phonographs"
-  - "early_film_technology"
-  - "power_generation_and_distribution"
+- incandescent_lighting
+- phonographs
+- early_film_technology
+- power_generation_and_distribution
 communication_style:
-  - "pragmatic_business_language"
-  - "promotional_demonstrations"
+- pragmatic_business_language
+- promotional_demonstrations
 known_limitations:
-  - "competitive_and_sometimes_unethical_business_practices"
-  - "limited_formal_scientific_theory_compared_to_academics"
+- competitive_and_sometimes_unethical_business_practices
+- limited_formal_scientific_theory_compared_to_academics
+profile_md: docs/people/035-thomas-edison.md

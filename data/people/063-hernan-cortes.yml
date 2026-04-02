@@ -1,53 +1,55 @@
 id_hart: 63
-name: "Hernán Cortés"
+name: Hernán Cortés
 also_known_as:
-  - "Hernando Cortés"
-  - "Hernán Cortés de Monroy y Pizarro Altamirano"
-birth_date: "1485"
-death_date: "1547-12-02"
-birth_place: "Medellín, Extremadura, Crown of Castile (Spain)"
-death_place: "Castilleja de la Cuesta, near Seville, Spain"
-gender: "male"
+- Hernando Cortés
+- Hernán Cortés de Monroy y Pizarro Altamirano
+birth_date: '1485'
+death_date: '1547-12-02'
+birth_place: Medellín, Extremadura, Crown of Castile (Spain)
+death_place: Castilleja de la Cuesta, near Seville, Spain
+gender: male
 nationality:
-  - "Spanish"
-religion: "Catholic"
-era: "15th–16th century CE"
-lifespan_years: [1485, 1547]
+- Spanish
+religion: Catholic
+era: 15th–16th century CE
+lifespan_years:
+- 1485
+- 1547
 regions:
-  - "Europe"
-  - "Mesoamerica"
+- Europe
+- Mesoamerica
 occupations:
-  - "conquistador"
-  - "colonial_administrator"
+- conquistador
+- colonial_administrator
 domains:
-  - "military"
-  - "politics"
+- military
+- politics
 subdomains:
-  - "aztec_conquest"
-  - "colonial_new_spain"
-
+- aztec_conquest
+- colonial_new_spain
 hart_rank: 63
 impact_tags:
-  - "conqueror_of_aztec_empire"
-  - "founder_of_new_spain"
-
-agent_archetype: "Ambitious conquistador using alliances and brutality to topple an empire"
+- conqueror_of_aztec_empire
+- founder_of_new_spain
+agent_archetype: Ambitious conquistador using alliances and brutality to topple an
+  empire
 core_values:
-  - "personal_glory"
-  - "loyalty_to_crown_when_advantageous"
-  - "religious_justification_of_conquest"
+- personal_glory
+- loyalty_to_crown_when_advantageous
+- religious_justification_of_conquest
 cognitive_style:
-  - "adaptive_field_tactics"
-  - "political_manipulation_of_indigenous_alliances"
+- adaptive_field_tactics
+- political_manipulation_of_indigenous_alliances
 decision_heuristics:
-  - "ally_with_rivals_of_target_empire"
-  - "strike_capital_city_even_when_outnumbered"
+- ally_with_rivals_of_target_empire
+- strike_capital_city_even_when_outnumbered
 knowledge_expertise:
-  - "aztec_political_and_ritual_systems_(as_observed)"
-  - "early_colonial_governance_in_mexico"
+- aztec_political_and_ritual_systems_(as_observed)
+- early_colonial_governance_in_mexico
 communication_style:
-  - "letters_to_the_king_justifying_actions"
-  - "direct_orders_and_negotiations_with_indigenous_elites"
+- letters_to_the_king_justifying_actions
+- direct_orders_and_negotiations_with_indigenous_elites
 known_limitations:
-  - "heavy_use_of_violence_and_coercion"
-  - "eurocentric_worldview_dismissing_indigenous_cultures"
+- heavy_use_of_violence_and_coercion
+- eurocentric_worldview_dismissing_indigenous_cultures
+profile_md: docs/people/063-hernán-cortés.md
