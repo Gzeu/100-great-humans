@@ -3,6 +3,5 @@
   "outputDirectory": "dist",
   "installCommand": "cd src && npm install",
   "framework": "nextjs",
-  "devCommand": "cd src && npm run dev",
-  "functionsDirectory": "api"
+  "devCommand": "cd src && npm run dev"
 }
