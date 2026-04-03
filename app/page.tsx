@@ -1,4 +1,8 @@
+'use client';
+
 import agents from '../output/agents-hart-100.json';
+import { useState } from 'react';
+import MultiModalChatInterface from '../components/MultiModalChatInterface';
 
 interface Agent {
   id: string;
@@ -20,6 +24,7 @@ interface Agent {
 }
 
 export default function HomePage() {
+  const [selectedAgent, setSelectedAgent] = useState<Agent | null>(null);
   const allAgents = agents as Agent[];
   const sorted = [...allAgents].sort((a, b) => a.rank - b.rank);
 
@@ -37,7 +42,7 @@ export default function HomePage() {
             100 Great Humans
           </h1>
           <p className="text-xl text-gray-300 mb-10 max-w-2xl mx-auto leading-relaxed">
-            A curated library of 100 influential historical figures — with biographies, domains, rankings, and agent-ready persona data.
+            A curated library of 100 influential historical figures — with biographies, domains, rankings, and multi-modal AI interactions including chat, images, audio, and video generation.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <a
@@ -94,7 +99,7 @@ export default function HomePage() {
                 {agent.name}
               </h3>
               <p className="text-xs text-purple-300 mb-3 italic">{agent.persona.archetype}</p>
-              <div className="flex flex-wrap gap-1">
+              <div className="flex flex-wrap gap-1 mb-3">
                 {agent.categories.domains.slice(0, 3).map(domain => (
                   <span
                     key={domain}
@@ -104,10 +109,27 @@ export default function HomePage() {
                   </span>
                 ))}
               </div>
+              <button
+                onClick={() => setSelectedAgent(agent)}
+                className="w-full bg-gradient-to-r from-blue-600 to-purple-600 text-white text-sm font-semibold py-2 rounded-lg hover:opacity-90 transition-opacity flex items-center justify-center gap-2"
+              >
+                <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M8 12h.01M12 12h.01M16 12h.01M21 12c0 4.418-4.03 8-9 8a9.863 9.863 0 01-4.255-.949L3 20l1.395-3.72C3.512 15.042 3 13.574 3 12c0-4.418 4.03-8 9-8s9 3.582 9 8z" />
+                </svg>
+                Multi-Modal Chat
+              </button>
             </article>
           ))}
         </div>
       </section>
+
+      {/* Multi-Modal Chat Interface */}
+      {selectedAgent && (
+        <MultiModalChatInterface 
+          agent={selectedAgent} 
+          onClose={() => setSelectedAgent(null)} 
+        />
+      )}
     </main>
   );
 }
