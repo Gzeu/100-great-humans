@@ -1,0 +1,9 @@
+{
+  "scripts": {
+    "test": "node tests/run-tests.js",
+    "test:api": "node tests/api/run-api-tests.js",
+    "test:integration": "node tests/integration/run-integration-tests.js", 
+    "test:unit": "node tests/unit/run-unit-tests.js",
+    "test:debug": "node tests/debug/run-debug-tests.js"
+  }
+}
