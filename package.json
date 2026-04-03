@@ -16,8 +16,8 @@
     "typescript": "^5.0.0",
     "tailwindcss": "^3.3.0",
     "autoprefixer": "^10.0.0",
-    "postcss": "^8.4.24",
-    "great-humans-sdk": "file:../src"
+    "postcss": "^8.4.24"
+  }
   },
   "devDependencies": {
     "eslint": "^8.0.0",
