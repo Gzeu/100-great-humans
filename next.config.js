@@ -2,9 +2,6 @@
 const nextConfig = {
   reactStrictMode: true,
   swcMinify: true,
-  experimental: {
-    serverComponentsExternalPackages: ['great-humans-sdk']
-  },
   env: {
     CUSTOM_KEY: process.env.CUSTOM_KEY,
   },
